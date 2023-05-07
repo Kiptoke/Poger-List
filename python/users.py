@@ -1,0 +1,89 @@
+from pathlib import Path
+import json
+
+USER_TABLE = {
+    'kaavya': 'h9wxnd3xvrfdfjv7r9p3ihz68', 
+    'musa': '315qfzr3gmd5m4mkjoprzwsny7cq', 
+    'andrew': '31fhaf5kxu7r4p3fr5r2klb5d23a', 
+    'natasha': '31d6s5qq4uxpm6ucmue2p3ykb37q', 
+    'naveen': '31giifsv5jaavljfciuappzifs3u', 
+    'aman': 'blackupblackup5', 
+    'kushal': 'kush_p', 
+    'faiyaz': 'je1mzixeidgq3qxp5v10r4iih', 
+    'renny': 'rennylop'
+}
+
+def get_playlists():
+    file = Path.cwd()/'json'/'playlists.json'
+    
+    with file.open('r', encoding='utf-8') as playlists:
+        return json.load(playlists)
+
+def get_users():
+    playlists = get_playlists()["playlists"]
+    reversed = dict(map(reversed, USER_TABLE.items()))
+    
+    for pl in playlists:
+        name = pl["name"]
+        users = set()
+        for track in pl['tracks']['items']:
+            id = track['added_by']['id']
+            users.add(reversed[id])
+            
+        print(f"{name} - {users}")
+    
+def get_user_poges(user):
+    playlists = get_playlists()["playlists"]
+    participated = set()
+    
+    for pl in playlists:
+        for track in pl['tracks']['items']:
+            id = track['added_by']['id']
+            if USER_TABLE[user] == id:
+                participated.add(pl["name"])
+            
+    return participated
+
+def get_user_songs(user, playlist):
+    playlists = get_playlists()["playlists"]
+    songs = []
+    data = {}
+    
+    for pl in playlists:
+        if pl['name'] == playlist:
+            data = pl
+            
+    for track in data['tracks']['items']:
+        id = track['added_by']['id']
+        if USER_TABLE[user] == id:
+            song_name = track['track']['name']
+            artists = []
+            
+            for artist in track['track']['artists']:
+                artists.append(artist['name'])
+            
+            song = {
+                'name': song_name,
+                'artist': artists
+            }
+            
+            songs.append(song)
+            
+    return songs
+
+def get_all_user_songs(user):
+    playlists = get_playlists()["playlists"]
+    full_list = []
+    
+    for pl in playlists:   
+        data = {
+            'name': pl['name'],
+            'songs': get_user_songs(user, pl['name'])
+        }
+        if data['songs'] != []:
+            full_list.append(data)
+            
+    return full_list
+    
+if __name__ == "__main__":
+    print(get_all_user_songs("andrew"))
