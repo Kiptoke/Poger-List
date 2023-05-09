@@ -1,42 +1,10 @@
-# Nuxt 3 Minimal Starter
+# The Poger Archives
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+An archive of all the songs and participants in the music playlist guessing game Poger.
 
-## Setup
+## To-Dos
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [ ] Create the "Poger" page, with separate pages for every Poger done before
+- [ ] Add heads and detailing to all the Stuwant pages
+- [ ] Add the "About" page with details of what Poger is and how to use the website
+- [ ] Clean up main page
