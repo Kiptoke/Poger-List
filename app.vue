@@ -1,5 +1,15 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+	<div>
+		<ILayout>
+			<ILayoutHeader>
+				<navbar></navbar>
+			</ILayoutHeader>
+			<ILayoutContent>
+				<NuxtPage></NuxtPage>
+			</ILayoutContent>
+			<ILayoutFooter>
+				footer
+			</ILayoutFooter>
+		</ILayout>
+	</div>
 </template>

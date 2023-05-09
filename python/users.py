@@ -14,14 +14,14 @@ USER_TABLE = {
 }
 
 def get_playlists():
-    file = Path.cwd()/'json'/'playlists.json'
+    file = Path.cwd()/'assets'/'json'/'playlists.json'
     
     with file.open('r', encoding='utf-8') as playlists:
         return json.load(playlists)
 
 def get_users():
     playlists = get_playlists()["playlists"]
-    reversed = dict(map(reversed, USER_TABLE.items()))
+    reversed = dict((v, k) for k, v in USER_TABLE.items())
     
     for pl in playlists:
         name = pl["name"]
@@ -82,8 +82,30 @@ def get_all_user_songs(user):
         }
         if data['songs'] != []:
             full_list.append(data)
-            
-    return full_list
     
+    output = {
+        'user': user.title(),
+        'id': USER_TABLE[user],
+        'poges': full_list
+    }
+    
+    return output
+
+def user_publish():
+    output = Path.cwd()/'assets'/'json'/'users.json'
+    users = []
+    
+    with output.open('w', encoding='utf-8') as file:
+        for key in USER_TABLE:
+           users.append(get_all_user_songs(key))
+           print(f"Processing user {key}")
+           
+        j = {
+            "users": users
+        }
+        
+        json.dump(j, file, indent=4)
+
+    #json.dumps(get_all_user_songs("naveen"), indent=4)
 if __name__ == "__main__":
-    print(get_all_user_songs("andrew"))
+    user_publish()

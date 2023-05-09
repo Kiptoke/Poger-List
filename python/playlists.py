@@ -36,8 +36,8 @@ def get_playlist(playlist_id, bearer):
     return pl
 
 def load_pogers():
-    input = Path.cwd()/'json'/'playlist_ids.json'
-    output = Path.cwd()/'json'/'playlists.json'
+    input = Path.cwd()/'assets'/'json'/'playlist_ids.json'
+    output = Path.cwd()/'assets'/'json'/'playlists.json'
     bearer = get_bearer()
     load_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     
