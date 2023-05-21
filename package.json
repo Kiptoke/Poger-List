@@ -9,10 +9,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@inkline/config": "^1.0.0",
+    "@inkline/plugin": "^1.0.0",
+    "@nuxt/image-edge": "^1.0.0-28059208.2abef1b",
     "@types/node": "^18",
     "nuxt": "^3.4.3",
-    "@inkline/plugin": "^1.0.0",
-    "@inkline/config": "^1.0.0",
     "sass": "^1.0.0"
   },
   "dependencies": {

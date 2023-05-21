@@ -1,14 +1,14 @@
 from pathlib import Path
+from utility import CLIENT_ID, CLIENT_SECRET, USER_TABLE, convertMS
 import datetime
 import json
 import requests
-import client
     
 def get_bearer():
     params = {
         'grant_type': "client_credentials",
-        'client_id': client.CLIENT_ID,
-        'client_secret': client.CLIENT_SECRET
+        'client_id': CLIENT_ID,
+        'client_secret': CLIENT_SECRET
     }
     headers = {
         'Content-Type': "application/x-www-form-urlencoded"
@@ -33,16 +33,26 @@ def get_playlist(playlist_id, bearer):
         headers = headers
     ).json()
     
+    image = Path.cwd()/'assets'/'pogers'
+    img = requests.get(pl['images'][0]['url']).content
+    with open(f"{image}/{pl['name']}.jpg", 'wb') as handler:
+        handler.write(img)
+    
     return pl
 
 def get_melody():
     # "65rLedogOjLqWp938fZCNu", melody is poger - requires special case
     file = Path.cwd()/'assets'/'json'/'melody.json'
+    image = Path.cwd()/'assets'/'pogers'
     
     with file.open('r', encoding='utf-8') as melody:
-        return json.load(melody)
+        md = json.load(melody)
+        img = requests.get(md['images'][0]['url']).content
+        with open(f"{image}/{md['name']}.jpg", 'wb') as handler:
+            handler.write(img)
+        return md
 
-def load_pogers():
+def load_playlists():
     input = Path.cwd()/'assets'/'json'/'playlist_ids.json'
     output = Path.cwd()/'assets'/'json'/'playlists.json'
     bearer = get_bearer()
@@ -58,15 +68,17 @@ def load_pogers():
         "playlists": []
     }
     
+    combined['playlists'].append(get_melody())
+    print(f"Read melody is poger")
+        
+    for id in ids:
+        playlist = get_playlist(id, bearer)
+        name = playlist["name"]
+        combined['playlists'].append(playlist)
+        print(f"Read {name}")
+            
     with output.open('w', encoding='utf-8') as file:
-        combined['playlists'].append(get_melody())
-        print(f"Read melody is poger")
-        for id in ids:
-            playlist = get_playlist(id, bearer)
-            name = playlist["name"]
-            combined['playlists'].append(playlist)
-            print(f"Read {name}")
-        json.dump(combined, file, indent=4)
+        json.dump(combined, file, indent=4)     
     
 if __name__ == "__main__":
-    load_pogers()
+    load_playlists()
