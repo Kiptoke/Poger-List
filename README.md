@@ -1,5 +1,7 @@
 # The Poger Archives
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1ce4ae6-2a8f-4789-aad9-cee4c8dff49c/deploy-status)](https://app.netlify.com/sites/poger-archive/deploys)
+
 An archive of all the songs and participants in the music playlist guessing game Poger.
 
 ## To-Dos
