@@ -1,5 +1,5 @@
 <script setup>
-	import user_list from "../../assets/json/users.json";
+	const user_list = await import("../../content/json/users.json");
 
 	const route = useRoute();
 	const route_name = route.params.name;
@@ -15,7 +15,7 @@
 
 	function getImage()
 	{
-		return new URL(`../../assets/heads/${route.params.name.toLowerCase()}.png`, import.meta.url)
+		return new URL(`../../content/heads/${route.params.name.toLowerCase()}.png`, import.meta.url)
 	}
 </script>
 

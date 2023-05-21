@@ -33,7 +33,7 @@ def get_playlist(playlist_id, bearer):
         headers = headers
     ).json()
     
-    image = Path.cwd()/'assets'/'pogers'
+    image = Path.cwd()/'content'/'pogers'
     img = requests.get(pl['images'][0]['url']).content
     with open(f"{image}/{pl['name']}.jpg", 'wb') as handler:
         handler.write(img)
@@ -42,8 +42,8 @@ def get_playlist(playlist_id, bearer):
 
 def get_melody():
     # "65rLedogOjLqWp938fZCNu", melody is poger - requires special case
-    file = Path.cwd()/'assets'/'json'/'melody.json'
-    image = Path.cwd()/'assets'/'pogers'
+    file = Path.cwd()/'content'/'json'/'melody.json'
+    image = Path.cwd()/'content'/'pogers'
     
     with file.open('r', encoding='utf-8') as melody:
         md = json.load(melody)
@@ -53,8 +53,8 @@ def get_melody():
         return md
 
 def load_playlists():
-    input = Path.cwd()/'assets'/'json'/'playlist_ids.json'
-    output = Path.cwd()/'assets'/'json'/'playlists.json'
+    input = Path.cwd()/'content'/'json'/'playlist_ids.json'
+    output = Path.cwd()/'content'/'json'/'playlists.json'
     bearer = get_bearer()
     load_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     

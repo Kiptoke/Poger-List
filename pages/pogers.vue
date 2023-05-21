@@ -1,5 +1,5 @@
 <script setup>
-	import file from "../assets/json/playlists.json";
+	const file = await import("../content/json/playlists.json");
 
 	let playlists = file['playlists'];
 
@@ -17,9 +17,9 @@
 	
 	function imageURL(input) {
 		if (input.name == "pogern't") {
-			return new URL(`../assets/pogers/pogernt.jpg`, import.meta.url)
+			return new URL(`../content/pogers/pogernt.jpg`, import.meta.url)
 		}
-		return new URL(`../assets/pogers/${input.name}.jpg`, import.meta.url)
+		return new URL(`../content/pogers/${input.name}.jpg`, import.meta.url)
 	}
 
 	function dateAdded(input) {
@@ -34,7 +34,7 @@
 	}
 
 	function getHead(input) {
-		return new URL(`../assets/heads/${user_table[input]}.png`, import.meta.url)
+		return new URL(`../content/heads/${user_table[input]}.png`, import.meta.url)
 	}
 
 	function getArtists(artists) {

@@ -9,7 +9,7 @@ def convertMS(ms):
     return minutes, "{:02d}".format(seconds)
  
 def get_playlists():
-    file = Path.cwd()/'assets'/'json'/'playlists.json'
+    file = Path.cwd()/'content'/'json'/'playlists.json'
     
     with file.open('r', encoding='utf-8') as playlists:
         return json.load(playlists)
@@ -91,7 +91,7 @@ def get_all_user_songs(user):
     return output
 
 def user_publish():
-    output = Path.cwd()/'assets'/'json'/'users.json'
+    output = Path.cwd()/'content'/'json'/'users.json'
     users = []
     
     with output.open('w', encoding='utf-8') as file:

@@ -1,5 +1,5 @@
 <script setup>
-    import user_list from "../assets/json/users.json";
+    import user_list from "../content/json/users.json";
     let users = user_list["users"]
 </script>
 
