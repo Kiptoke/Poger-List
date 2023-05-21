@@ -16,6 +16,9 @@
 	}
 	
 	function imageURL(input) {
+		if (input.name == "pogern't") {
+			return new URL(`../assets/pogers/pogernt.jpg`, import.meta.url)
+		}
 		return new URL(`../assets/pogers/${input.name}.jpg`, import.meta.url)
 	}
 
