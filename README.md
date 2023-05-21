@@ -4,7 +4,7 @@ An archive of all the songs and participants in the music playlist guessing game
 
 ## To-Dos
 
-- [ ] Create the "Poger" page, with separate pages for every Poger done before
+- [x] Create the "Poger" page, with a full listing of all songs in every poger
 - [x] Add heads and detailing to all the Stuwant pages
 - [ ] Add the "About" page with details of what Poger is and how to use the website
 - [ ] Clean up main page
