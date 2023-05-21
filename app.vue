@@ -7,9 +7,6 @@
 			<ILayoutContent>
 				<NuxtPage></NuxtPage>
 			</ILayoutContent>
-			<ILayoutFooter>
-				footer
-			</ILayoutFooter>
 		</ILayout>
 	</div>
 </template>

@@ -1,4 +1,5 @@
 from pathlib import Path
+import datetime 
 import json
 
 USER_TABLE = {
@@ -13,6 +14,11 @@ USER_TABLE = {
     'renny': 'rennylop'
 }
 
+def convertMS(ms):
+    seconds=int(ms/1000)%60
+    minutes=int(ms/(1000*60))%60
+    return minutes, "{:02d}".format(seconds)
+ 
 def get_playlists():
     file = Path.cwd()/'assets'/'json'/'playlists.json'
     
@@ -57,14 +63,18 @@ def get_user_songs(user, playlist):
         id = track['added_by']['id']
         if USER_TABLE[user] == id:
             song_name = track['track']['name']
+            album = track['track']['album']
+            length = convertMS(track['track']['duration_ms'])
             artists = []
             
             for artist in track['track']['artists']:
                 artists.append(artist['name'])
-            
+        
             song = {
                 'name': song_name,
-                'artist': artists
+                'length': f"{length[0]}:{length[1]}",
+                'album': album['name'],
+                'artist': artists,
             }
             
             songs.append(song)
@@ -106,6 +116,5 @@ def user_publish():
         
         json.dump(j, file, indent=4)
 
-    #json.dumps(get_all_user_songs("naveen"), indent=4)
 if __name__ == "__main__":
     user_publish()

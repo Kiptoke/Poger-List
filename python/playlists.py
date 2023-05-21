@@ -35,6 +35,13 @@ def get_playlist(playlist_id, bearer):
     
     return pl
 
+def get_melody():
+    # "65rLedogOjLqWp938fZCNu", melody is poger - requires special case
+    file = Path.cwd()/'assets'/'json'/'melody.json'
+    
+    with file.open('r', encoding='utf-8') as melody:
+        return json.load(melody)
+
 def load_pogers():
     input = Path.cwd()/'assets'/'json'/'playlist_ids.json'
     output = Path.cwd()/'assets'/'json'/'playlists.json'
@@ -52,6 +59,8 @@ def load_pogers():
     }
     
     with output.open('w', encoding='utf-8') as file:
+        combined['playlists'].append(get_melody())
+        print(f"Read melody is poger")
         for id in ids:
             playlist = get_playlist(id, bearer)
             name = playlist["name"]
