@@ -4,11 +4,11 @@ import json
 import requests
 import os
     
-def get_bearer():
+def get_bearer(id, secret):
     params = {
         'grant_type': "client_credentials",
-        'client_id': os.getenv('client_id'),
-        'client_secret': os.getenv('client_secret')
+        'client_id': id,
+        'client_secret': secret
     }
     print(params)
     headers = {
@@ -53,10 +53,10 @@ def get_melody():
             handler.write(img)
         return md
 
-def load_playlists():
+def load_playlists(client_id, client_secret):
     input = Path.cwd()/'content'/'json'/'playlist_ids.json'
     output = Path.cwd()/'content'/'json'/'playlists.json'
-    bearer = get_bearer()
+    bearer = get_bearer(client_id, client_secret)
     load_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     
     print("Collecting playlists...")
