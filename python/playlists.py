@@ -19,7 +19,7 @@ def get_bearer():
         params = params,
         headers = headers
     ).json()
-    
+    print(bearer)
     auth = "Bearer " + bearer["access_token"]
     
     return auth
