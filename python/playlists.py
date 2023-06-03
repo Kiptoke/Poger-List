@@ -10,6 +10,7 @@ def get_bearer():
         'client_id': os.getenv('client_id'),
         'client_secret': os.getenv('client_secret')
     }
+    print(params)
     headers = {
         'Content-Type': "application/x-www-form-urlencoded"
     }
