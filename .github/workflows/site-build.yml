@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pathlib datetime requests os json
+        pip install pathlib datetime requests
     - name: Update site with Spotify data
       run: python python/data_update.py
       env: 
