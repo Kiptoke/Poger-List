@@ -1,14 +1,14 @@
 from pathlib import Path
-from utility import CLIENT_ID, CLIENT_SECRET, USER_TABLE, convertMS
 import datetime
 import json
 import requests
+import os
     
 def get_bearer():
     params = {
         'grant_type': "client_credentials",
-        'client_id': CLIENT_ID,
-        'client_secret': CLIENT_SECRET
+        'client_id': os.getenv('client_id'),
+        'client_secret': os.getenv('client_secret')
     }
     headers = {
         'Content-Type': "application/x-www-form-urlencoded"

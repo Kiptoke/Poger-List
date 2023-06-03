@@ -1,6 +1,5 @@
 from pathlib import Path
 from utility import USER_TABLE, convertMS
-import datetime 
 import json
 
 def convertMS(ms):
