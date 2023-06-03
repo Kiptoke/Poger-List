@@ -27,7 +27,7 @@ jobs:
     - name: Update site with Spotify data
       run: python python/data_update.py
       env: 
-        client_id: ${{ secrets.CLIENT_ID }},
+        client_id: ${{ secrets.CLIENT_ID }}
         client_secret: ${{ secrets.CLIENT_SECRET }}
     - name: Commit updated site build
       run: |
