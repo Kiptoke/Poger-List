@@ -10,7 +10,6 @@ def get_bearer(id, secret):
         'client_id': id,
         'client_secret': secret
     }
-    print(params)
     headers = {
         'Content-Type': "application/x-www-form-urlencoded"
     }
@@ -19,7 +18,7 @@ def get_bearer(id, secret):
         params = params,
         headers = headers
     ).json()
-    print(bearer)
+    
     auth = "Bearer " + bearer["access_token"]
     
     return auth
