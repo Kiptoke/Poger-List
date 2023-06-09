@@ -1427,6 +1427,59 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "usoger",
+                    "songs": [
+                        {
+                            "name": "Pay the Man",
+                            "length": "3:53",
+                            "album": "Sacred Hearts Club",
+                            "artist": [
+                                "Foster The People"
+                            ]
+                        },
+                        {
+                            "name": "still feel.",
+                            "length": "4:07",
+                            "album": "Now, Not Yet",
+                            "artist": [
+                                "half\u2022alive"
+                            ]
+                        },
+                        {
+                            "name": "I Won't Let You Down",
+                            "length": "3:42",
+                            "album": "Hungry Ghosts",
+                            "artist": [
+                                "OK Go"
+                            ]
+                        },
+                        {
+                            "name": "Tranz",
+                            "length": "2:42",
+                            "album": "The Now Now",
+                            "artist": [
+                                "Gorillaz"
+                            ]
+                        },
+                        {
+                            "name": "I Love Hating You",
+                            "length": "2:31",
+                            "album": "I Love Hating You",
+                            "artist": [
+                                "FrankJavCee"
+                            ]
+                        },
+                        {
+                            "name": "The Mother We Share",
+                            "length": "3:11",
+                            "album": "The Bones of What You Believe",
+                            "artist": [
+                                "CHVRCHES"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -3678,7 +3731,7 @@
                             "length": "4:21",
                             "album": "Flight of the Knife",
                             "artist": [
-                                "Bryan Scary & the Shredding Tears"
+                                "Bryan Scary"
                             ]
                         },
                         {
@@ -4298,6 +4351,59 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "usoger",
+                    "songs": [
+                        {
+                            "name": "u can be my lover",
+                            "length": "2:59",
+                            "album": "u can be my lover",
+                            "artist": [
+                                "nelward"
+                            ]
+                        },
+                        {
+                            "name": "Amnesia Was Her Name",
+                            "length": "4:03",
+                            "album": "View-Monster",
+                            "artist": [
+                                "Lemon Demon"
+                            ]
+                        },
+                        {
+                            "name": "Reading, Pa",
+                            "length": "3:43",
+                            "album": "Raised in Pennsylvania",
+                            "artist": [
+                                "Liam Goodwin"
+                            ]
+                        },
+                        {
+                            "name": "Koinu no Carnival -From \"Minute Waltz\"-",
+                            "length": "3:10",
+                            "album": "\"Classicaloid\" Chopin Musik",
+                            "artist": [
+                                "EHAMIC"
+                            ]
+                        },
+                        {
+                            "name": "Pizza Heroes (Bonus Track)",
+                            "length": "1:30",
+                            "album": "Spirit Phone",
+                            "artist": [
+                                "Lemon Demon"
+                            ]
+                        },
+                        {
+                            "name": "Fdj (freie deutsche jugend)",
+                            "length": "4:55",
+                            "album": "Im dienste des sozialismus",
+                            "artist": [
+                                "Ifa Wartburg"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -4529,6 +4635,43 @@
                             "album": "Broken Machine (Deluxe)",
                             "artist": [
                                 "Nothing But Thieves"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "usoger",
+                    "songs": [
+                        {
+                            "name": "Sum of My Cares",
+                            "length": "4:21",
+                            "album": "Sum of My Cares",
+                            "artist": [
+                                "The Long Faces"
+                            ]
+                        },
+                        {
+                            "name": "Flowers",
+                            "length": "3:20",
+                            "album": "Flowers",
+                            "artist": [
+                                "Miley Cyrus"
+                            ]
+                        },
+                        {
+                            "name": "Romantic Homicide",
+                            "length": "2:12",
+                            "album": "Romantic Homicide",
+                            "artist": [
+                                "d4vd"
+                            ]
+                        },
+                        {
+                            "name": "Strawberry Blond",
+                            "length": "1:54",
+                            "album": "Retired from Sad, New Career in Business",
+                            "artist": [
+                                "Mitski"
                             ]
                         }
                     ]
@@ -5114,6 +5257,60 @@
                             "album": "The Lady Killer",
                             "artist": [
                                 "CeeLo Green"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "usoger",
+                    "songs": [
+                        {
+                            "name": "3005",
+                            "length": "3:54",
+                            "album": "Because the Internet",
+                            "artist": [
+                                "Childish Gambino"
+                            ]
+                        },
+                        {
+                            "name": "Ahead of Us",
+                            "length": "4:51",
+                            "album": "Proof of Us (Soundtrack to the FLAT STUDIO Short Film)",
+                            "artist": [
+                                "Akira Kosemura"
+                            ]
+                        },
+                        {
+                            "name": "(I Dread The Day He Takes You To) Paris [feat. MYRNE]",
+                            "length": "3:38",
+                            "album": "(I Dread The Day He Takes You To) Paris [feat. MYRNE]",
+                            "artist": [
+                                "Jai Wolf",
+                                "MYRNE"
+                            ]
+                        },
+                        {
+                            "name": "Cream Soda",
+                            "length": "4:05",
+                            "album": "Cream Soda",
+                            "artist": [
+                                "Seycara Orchestral"
+                            ]
+                        },
+                        {
+                            "name": "Six Years Wiser",
+                            "length": "3:03",
+                            "album": "Six Years Wiser",
+                            "artist": [
+                                "Harrison Boe"
+                            ]
+                        },
+                        {
+                            "name": "Cul-de-sac",
+                            "length": "2:57",
+                            "album": "This Too Shall Pass",
+                            "artist": [
+                                "Wez Atlas"
                             ]
                         }
                     ]
@@ -6824,6 +7021,63 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "usoger",
+                    "songs": [
+                        {
+                            "name": "Starfall",
+                            "length": "4:16",
+                            "album": "ILLENIUM",
+                            "artist": [
+                                "ILLENIUM"
+                            ]
+                        },
+                        {
+                            "name": "Other Side",
+                            "length": "3:31",
+                            "album": "ILLENIUM",
+                            "artist": [
+                                "ILLENIUM",
+                                "Said The Sky",
+                                "Vera Blue"
+                            ]
+                        },
+                        {
+                            "name": "BONVOYAGE",
+                            "length": "3:33",
+                            "album": "[Apocalypse : From us]",
+                            "artist": [
+                                "Dreamcatcher"
+                            ]
+                        },
+                        {
+                            "name": "Propose",
+                            "length": "3:12",
+                            "album": "[Apocalypse : From us]",
+                            "artist": [
+                                "Dreamcatcher"
+                            ]
+                        },
+                        {
+                            "name": "Shadows",
+                            "length": "4:30",
+                            "album": "Shadows",
+                            "artist": [
+                                "Seven Lions",
+                                "Wooli",
+                                "Amidy"
+                            ]
+                        },
+                        {
+                            "name": "Damn Good Day",
+                            "length": "3:02",
+                            "album": "Specter",
+                            "artist": [
+                                "Hoshimachi Suisei"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -8345,6 +8599,61 @@
                             "album": "Gasanova",
                             "artist": [
                                 "Yung Gravy"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "usoger",
+                    "songs": [
+                        {
+                            "name": "KONKON Beats",
+                            "length": "2:50",
+                            "album": "KONKON Beats",
+                            "artist": [
+                                "\u767d\u4e0a\u30d5\u30d6\u30ad"
+                            ]
+                        },
+                        {
+                            "name": "Madness",
+                            "length": "4:41",
+                            "album": "The 2nd Law",
+                            "artist": [
+                                "Muse"
+                            ]
+                        },
+                        {
+                            "name": "Red Like Roses - Part II (feat. Casey Lee Williams & Sandy Casey)",
+                            "length": "4:02",
+                            "album": "RWBY, Vol. 1 (Music from the Rooster Teeth Series)",
+                            "artist": [
+                                "Jeff Williams",
+                                "Casey Lee Williams",
+                                "Sandy Casey"
+                            ]
+                        },
+                        {
+                            "name": "It's Pizza Time!",
+                            "length": "3:52",
+                            "album": "Pizza Tower Soundtrack",
+                            "artist": [
+                                "Mr. Sauceman"
+                            ]
+                        },
+                        {
+                            "name": "Oregano Mirage",
+                            "length": "2:26",
+                            "album": "Pizza Tower Soundtrack",
+                            "artist": [
+                                "ClascyJitto"
+                            ]
+                        },
+                        {
+                            "name": "Good Eatin'",
+                            "length": "3:28",
+                            "album": "Pizza Tower Soundtrack",
+                            "artist": [
+                                "ClascyJitto"
                             ]
                         }
                     ]
