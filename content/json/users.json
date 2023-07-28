@@ -1041,11 +1041,11 @@
                             ]
                         },
                         {
-                            "name": "Resonance",
-                            "length": "3:32",
+                            "name": "",
+                            "length": "0:00",
                             "album": "Hacknet Labyrinths (Official Soundtrack)",
                             "artist": [
-                                "HOME"
+                                ""
                             ]
                         },
                         {
@@ -1523,6 +1523,229 @@
                             "album": "Telltale Signs",
                             "artist": [
                                 "Sobs"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "Out of Touch",
+                            "length": "4:09",
+                            "album": "The Very Best of Daryl Hall / John Oates",
+                            "artist": [
+                                "Daryl Hall & John Oates"
+                            ]
+                        },
+                        {
+                            "name": "I Wish",
+                            "length": "4:09",
+                            "album": "I Wish",
+                            "artist": [
+                                "Skee-Lo"
+                            ]
+                        },
+                        {
+                            "name": "Down",
+                            "length": "3:32",
+                            "album": "All Or Nothing",
+                            "artist": [
+                                "Jay Sean",
+                                "Lil Wayne"
+                            ]
+                        },
+                        {
+                            "name": "See You Again (feat. Kali Uchis)",
+                            "length": "3:00",
+                            "album": "Flower Boy",
+                            "artist": [
+                                "Tyler, The Creator",
+                                "Kali Uchis"
+                            ]
+                        },
+                        {
+                            "name": "Heaven Is A Place On Earth",
+                            "length": "4:07",
+                            "album": "Heaven On Earth",
+                            "artist": [
+                                "Belinda Carlisle"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pogirl",
+                    "songs": [
+                        {
+                            "name": "Teenage Dirtbag",
+                            "length": "3:40",
+                            "album": "Teenage Dirtbag",
+                            "artist": [
+                                "eleventyseven"
+                            ]
+                        },
+                        {
+                            "name": "Flip",
+                            "length": "3:42",
+                            "album": "ZABA",
+                            "artist": [
+                                "Glass Animals"
+                            ]
+                        },
+                        {
+                            "name": "\u597d\u304d\u597d\u304d\u5927\u597d\u304d - 2016 Remaster",
+                            "length": "3:34",
+                            "album": "\u597d\u304d\u597d\u304d\u5927\u597d\u304d",
+                            "artist": [
+                                "Jun Togawa"
+                            ]
+                        },
+                        {
+                            "name": "TSLAMP",
+                            "length": "4:30",
+                            "album": "Little Dark Age",
+                            "artist": [
+                                "MGMT"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "Butch 4 Butch",
+                            "length": "2:58",
+                            "album": "Butch 4 Butch",
+                            "artist": [
+                                "Rio Romeo"
+                            ]
+                        },
+                        {
+                            "name": "Cats on Mars",
+                            "length": "2:45",
+                            "album": "COWBOY BEBOP Vitaminless",
+                            "artist": [
+                                "SEATBELTS"
+                            ]
+                        },
+                        {
+                            "name": "Still Just a Rat in a Cage",
+                            "length": "4:21",
+                            "album": "Still Just a Rat in a Cage",
+                            "artist": [
+                                "Blue Light Special"
+                            ]
+                        },
+                        {
+                            "name": "Murine Corps",
+                            "length": "4:09",
+                            "album": "Cuphead (Original Soundtrack)",
+                            "artist": [
+                                "Kristofer Maddigan"
+                            ]
+                        },
+                        {
+                            "name": "Ratoo",
+                            "length": "0:49",
+                            "album": "Cult of the Lamb (Original Soundtrack)",
+                            "artist": [
+                                "River Boy"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rapoger",
+                    "songs": [
+                        {
+                            "name": "Dang! (feat. Anderson .Paak)",
+                            "length": "5:05",
+                            "album": "The Divine Feminine",
+                            "artist": [
+                                "Mac Miller",
+                                "Anderson .Paak"
+                            ]
+                        },
+                        {
+                            "name": "BOOGIE",
+                            "length": "3:13",
+                            "album": "SATURATION III",
+                            "artist": [
+                                "BROCKHAMPTON"
+                            ]
+                        },
+                        {
+                            "name": "Write This Down",
+                            "length": "3:09",
+                            "album": "Escapism",
+                            "artist": [
+                                "SoulChef",
+                                "Nieve"
+                            ]
+                        },
+                        {
+                            "name": "Inwood Hill Park",
+                            "length": "3:09",
+                            "album": "Since I Have A Lover",
+                            "artist": [
+                                "6LACK"
+                            ]
+                        },
+                        {
+                            "name": "Uh Huh!",
+                            "length": "2:15",
+                            "album": "Voice Memos",
+                            "artist": [
+                                "Quadeca"
+                            ]
+                        },
+                        {
+                            "name": "Womp Womp",
+                            "length": "3:46",
+                            "album": "Womp Womp",
+                            "artist": [
+                                "Valee",
+                                "Jeremih"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "Rogue",
+                            "length": "3:11",
+                            "album": "Hostage",
+                            "artist": [
+                                "Gloomcvlt"
+                            ]
+                        },
+                        {
+                            "name": "Feel Me",
+                            "length": "3:46",
+                            "album": "Feel Me",
+                            "artist": [
+                                "Sui Uzi"
+                            ]
+                        },
+                        {
+                            "name": "No One Has To Know",
+                            "length": "4:22",
+                            "album": "EGO",
+                            "artist": [
+                                "RAC",
+                                "Joywave"
+                            ]
+                        },
+                        {
+                            "name": "DISCO CLOSURE",
+                            "length": "3:23",
+                            "album": "DISCO CLOSURE",
+                            "artist": [
+                                "MILKBLOOD"
                             ]
                         }
                     ]
@@ -2919,6 +3142,157 @@
                             "album": "Omori (Original Game Soundtrack), Pt. 2",
                             "artist": [
                                 "Omori"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+                            "length": "4:16",
+                            "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+                            "artist": [
+                                "Metro Boomin",
+                                "A$AP Rocky",
+                                "Roisee"
+                            ]
+                        },
+                        {
+                            "name": "The Less I Know The Better",
+                            "length": "3:36",
+                            "album": "Currents",
+                            "artist": [
+                                "Tame Impala"
+                            ]
+                        },
+                        {
+                            "name": "Give Life Back to Music",
+                            "length": "4:35",
+                            "album": "Random Access Memories (10th Anniversary Edition)",
+                            "artist": [
+                                "Daft Punk"
+                            ]
+                        },
+                        {
+                            "name": "Wrecked",
+                            "length": "4:04",
+                            "album": "Mercury - Acts 1 & 2",
+                            "artist": [
+                                "Imagine Dragons"
+                            ]
+                        },
+                        {
+                            "name": "This Love",
+                            "length": "3:26",
+                            "album": "Songs About Jane: 10th Anniversary Edition",
+                            "artist": [
+                                "Maroon 5"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pogirl",
+                    "songs": [
+                        {
+                            "name": "Aura",
+                            "length": "3:12",
+                            "album": "RY RY WORLD",
+                            "artist": [
+                                "Mariah the Scientist"
+                            ]
+                        },
+                        {
+                            "name": "Pipornithology, Pt. 2",
+                            "length": "2:28",
+                            "album": "Big Sun",
+                            "artist": [
+                                "Chassol"
+                            ]
+                        },
+                        {
+                            "name": "We Never Die (Demo)",
+                            "length": "3:51",
+                            "album": "Chapter 2",
+                            "artist": [
+                                "Juke Ross"
+                            ]
+                        },
+                        {
+                            "name": "Peace Of Mind (feat. Vargas & Lagola)",
+                            "length": "3:00",
+                            "album": "TIM",
+                            "artist": [
+                                "Avicii",
+                                "Vargas & Lagola"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "Hot Rotten Grass Smell",
+                            "length": "1:35",
+                            "album": "Rat Saw God",
+                            "artist": [
+                                "Wednesday"
+                            ]
+                        },
+                        {
+                            "name": "Loud Pipes",
+                            "length": "3:46",
+                            "album": "Classics",
+                            "artist": [
+                                "Ratatat"
+                            ]
+                        },
+                        {
+                            "name": "Ratatouille Main Theme",
+                            "length": "2:09",
+                            "album": "Ratatouille (Original Motion Picture Soundtrack)",
+                            "artist": [
+                                "Michael Giacchino"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "Daydreaming",
+                            "length": "6:24",
+                            "album": "A Moon Shaped Pool",
+                            "artist": [
+                                "Radiohead"
+                            ]
+                        },
+                        {
+                            "name": "Blowin' in the Wind",
+                            "length": "2:57",
+                            "album": "In the Wind",
+                            "artist": [
+                                "Peter, Paul and Mary"
+                            ]
+                        },
+                        {
+                            "name": "Pipornithology, Pt. 2",
+                            "length": "2:28",
+                            "album": "Big Sun",
+                            "artist": [
+                                "Chassol"
+                            ]
+                        },
+                        {
+                            "name": "The View Between Villages",
+                            "length": "3:35",
+                            "album": "Stick Season (We'll All Be Here Forever)",
+                            "artist": [
+                                "Noah Kahan"
                             ]
                         }
                     ]
@@ -4541,6 +4915,201 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "Stairway to Heaven - Remaster",
+                            "length": "8:02",
+                            "album": "Led Zeppelin IV (Deluxe Edition)",
+                            "artist": [
+                                "Led Zeppelin"
+                            ]
+                        },
+                        {
+                            "name": "Bizarre Love Triangle",
+                            "length": "4:23",
+                            "album": "Brotherhood (Collector's Edition)",
+                            "artist": [
+                                "New Order"
+                            ]
+                        },
+                        {
+                            "name": "Hayloft",
+                            "length": "3:01",
+                            "album": "O My Heart",
+                            "artist": [
+                                "Mother Mother"
+                            ]
+                        },
+                        {
+                            "name": "We Didn't Start the Fire",
+                            "length": "4:47",
+                            "album": "Storm Front",
+                            "artist": [
+                                "Billy Joel"
+                            ]
+                        },
+                        {
+                            "name": "Goodbye To A World",
+                            "length": "5:28",
+                            "album": "Worlds",
+                            "artist": [
+                                "Porter Robinson"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pogirl",
+                    "songs": [
+                        {
+                            "name": "Woman - W\u306e\u60b2\u5287\u3088\u308a",
+                            "length": "5:06",
+                            "album": "Her Abiding Memory",
+                            "artist": [
+                                "Pitcher56"
+                            ]
+                        },
+                        {
+                            "name": "HAUNTED HOUSE",
+                            "length": "2:25",
+                            "album": "HAUNTED HOUSE",
+                            "artist": [
+                                "SNAKE POOL"
+                            ]
+                        },
+                        {
+                            "name": "\u30a4\u30a4\u30b3\u3068\u5996\u72d0",
+                            "length": "3:53",
+                            "album": "\u30a4\u30a4\u30b3\u3068\u5996\u72d0",
+                            "artist": [
+                                "Kikuo"
+                            ]
+                        },
+                        {
+                            "name": "Doombop!",
+                            "length": "2:39",
+                            "album": "Doombop!",
+                            "artist": [
+                                "The Toxhards"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "Potato Knishes",
+                            "length": "1:18",
+                            "album": "Ratboy Genius Dreams: Minecraft",
+                            "artist": [
+                                "Ratboy Genius",
+                                "Little King John"
+                            ]
+                        },
+                        {
+                            "name": "Mr Boombastic",
+                            "length": "4:06",
+                            "album": "Dancehall",
+                            "artist": [
+                                "Shaggy"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rapoger",
+                    "songs": [
+                        {
+                            "name": "4 Da Trap",
+                            "length": "1:35",
+                            "album": "4 Da Trap",
+                            "artist": [
+                                "645AR"
+                            ]
+                        },
+                        {
+                            "name": "OverThink - \u52a8\u753b\u300a\u65f6\u5149\u4ee3\u7406\u4eba\u300b\u7247\u5c3e\u66f2",
+                            "length": "3:00",
+                            "album": "\u65f6\u5149\u4ee3\u7406\u4eba (\u52a8\u753b\u300a\u65f6\u5149\u4ee3\u7406\u4eba\u300b\u539f\u58f0\u5e26)",
+                            "artist": [
+                                "\u996d\u5361"
+                            ]
+                        },
+                        {
+                            "name": "Jeff Bezos vs Mansa Musa",
+                            "length": "3:45",
+                            "album": "Jeff Bezos vs Mansa Musa",
+                            "artist": [
+                                "Epic Rap Battles of History"
+                            ]
+                        },
+                        {
+                            "name": "Burgers on My Mind",
+                            "length": "1:30",
+                            "album": "Foodie Freestyles",
+                            "artist": [
+                                "G-Mayne Da Wreck"
+                            ]
+                        },
+                        {
+                            "name": "Driver's Test",
+                            "length": "2:03",
+                            "album": "PaRappa The Rapper (Original Game Soundtrack)",
+                            "artist": [
+                                "PaRappa the Rapper"
+                            ]
+                        },
+                        {
+                            "name": "Amish Paradise (Parody of \"Gangsta's Paradise\" by Coolio)",
+                            "length": "3:22",
+                            "album": "Bad Hair Day",
+                            "artist": [
+                                "\"Weird Al\" Yankovic"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "melody",
+                            "length": "3:43",
+                            "album": "melody",
+                            "artist": [
+                                "maxin",
+                                "mia simone"
+                            ]
+                        },
+                        {
+                            "name": "Adventure",
+                            "length": "4:39",
+                            "album": "ADVENTURE",
+                            "artist": [
+                                "Momoko Kikuchi"
+                            ]
+                        },
+                        {
+                            "name": "Staring",
+                            "length": "3:26",
+                            "album": "Staring",
+                            "artist": [
+                                "Tipling Rock"
+                            ]
+                        },
+                        {
+                            "name": "Heart Throb - Album Version (Edited)",
+                            "length": "2:11",
+                            "album": "Get Awkward",
+                            "artist": [
+                                "Be Your Own Pet"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -4812,6 +5381,81 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "Stay",
+                            "length": "3:24",
+                            "album": "beerbongs & bentleys",
+                            "artist": [
+                                "Post Malone"
+                            ]
+                        },
+                        {
+                            "name": "Cry Baby",
+                            "length": "3:55",
+                            "album": "Wiped Out!",
+                            "artist": [
+                                "The Neighbourhood"
+                            ]
+                        },
+                        {
+                            "name": "Trip Switch",
+                            "length": "3:01",
+                            "album": "Nothing But Thieves (Deluxe)",
+                            "artist": [
+                                "Nothing But Thieves"
+                            ]
+                        },
+                        {
+                            "name": "Vossi Bop",
+                            "length": "3:16",
+                            "album": "Heavy Is The Head",
+                            "artist": [
+                                "Stormzy"
+                            ]
+                        },
+                        {
+                            "name": "Crush",
+                            "length": "3:33",
+                            "album": "David Archuleta",
+                            "artist": [
+                                "David Archuleta"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "Le Festin",
+                            "length": "2:50",
+                            "album": "Ratatouille (Original Motion Picture Soundtrack)",
+                            "artist": [
+                                "Camille",
+                                "Michael Giacchino"
+                            ]
+                        },
+                        {
+                            "name": "Hot Dog!",
+                            "length": "2:28",
+                            "album": "Mickey Mouse Clubhouse",
+                            "artist": [
+                                "They Might Be Giants (For Kids)"
+                            ]
+                        },
+                        {
+                            "name": "Sugar Boats",
+                            "length": "4:03",
+                            "album": "Strangers to Ourselves",
+                            "artist": [
+                                "Modest Mouse"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -5024,6 +5668,113 @@
                             "artist": [
                                 "YVY",
                                 "Quincy"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pogirl",
+                    "songs": [
+                        {
+                            "name": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+                            "length": "4:16",
+                            "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE)",
+                            "artist": [
+                                "Metro Boomin",
+                                "A$AP Rocky",
+                                "Roisee"
+                            ]
+                        },
+                        {
+                            "name": "Sweater Weather",
+                            "length": "4:00",
+                            "album": "I Love You.",
+                            "artist": [
+                                "The Neighbourhood"
+                            ]
+                        },
+                        {
+                            "name": "Tennis Court",
+                            "length": "3:18",
+                            "album": "Pure Heroine",
+                            "artist": [
+                                "Lorde"
+                            ]
+                        },
+                        {
+                            "name": "The Rains of Castamere",
+                            "length": "3:44",
+                            "album": "Game Of Thrones: Season 8 (Music from the HBO Series)",
+                            "artist": [
+                                "Ramin Djawadi",
+                                "Serj Tankian"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "\u30c1\u30ad\u30c1\u30ad\u30d0\u30f3\u30d0\u30f3",
+                            "length": "3:22",
+                            "album": "\u30c1\u30ad\u30c1\u30ad\u30d0\u30f3\u30d0\u30f3",
+                            "artist": [
+                                "QUEENDOM"
+                            ]
+                        },
+                        {
+                            "name": "NEZUMI Scheme",
+                            "length": "2:49",
+                            "album": "NEZUMI Scheme",
+                            "artist": [
+                                "Mori Calliope"
+                            ]
+                        },
+                        {
+                            "name": "Rapture",
+                            "length": "5:12",
+                            "album": "PANORAMADDICTION",
+                            "artist": [
+                                "Panorama Panama Town"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "Barbie Girl",
+                            "length": "3:17",
+                            "album": "Aquarium (Special Edition)",
+                            "artist": [
+                                "Aqua"
+                            ]
+                        },
+                        {
+                            "name": "Overtaken - Epic Version (from \"One Piece\") - Cover",
+                            "length": "2:21",
+                            "album": "Overtaken - Epic Version (from \"One Piece\") [Cover]",
+                            "artist": [
+                                "Samuel Kim"
+                            ]
+                        },
+                        {
+                            "name": "Victory",
+                            "length": "5:20",
+                            "album": "Battlecry",
+                            "artist": [
+                                "Two Steps from Hell",
+                                "Thomas Bergersen"
+                            ]
+                        },
+                        {
+                            "name": "Tot Musica (From \"One Piece Film: Red\")",
+                            "length": "3:11",
+                            "album": "Tot Musica (From \"One Piece Film: Red\")",
+                            "artist": [
+                                "AmaLee"
                             ]
                         }
                     ]
@@ -5497,6 +6248,182 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "I'm Like A Bird",
+                            "length": "4:03",
+                            "album": "Whoa, Nelly!",
+                            "artist": [
+                                "Nelly Furtado"
+                            ]
+                        },
+                        {
+                            "name": "Happy Now",
+                            "length": "3:27",
+                            "album": "Happy Now",
+                            "artist": [
+                                "Zedd",
+                                "Elley Duh\u00e9"
+                            ]
+                        },
+                        {
+                            "name": "Beautiful Soul",
+                            "length": "3:34",
+                            "album": "Beautiful Soul",
+                            "artist": [
+                                "Jesse McCartney"
+                            ]
+                        },
+                        {
+                            "name": "The Man Who Can't Be Moved",
+                            "length": "4:01",
+                            "album": "The Script",
+                            "artist": [
+                                "The Script"
+                            ]
+                        },
+                        {
+                            "name": "Give Your Heart a Break",
+                            "length": "3:25",
+                            "album": "Unbroken",
+                            "artist": [
+                                "Demi Lovato"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "Rat",
+                            "length": "1:20",
+                            "album": "Rat",
+                            "artist": [
+                                "GreenWRLD"
+                            ]
+                        },
+                        {
+                            "name": "Rat Race",
+                            "length": "2:50",
+                            "album": "Rastaman Vibration",
+                            "artist": [
+                                "Bob Marley & The Wailers"
+                            ]
+                        },
+                        {
+                            "name": "El Rat\u00f3n",
+                            "length": "3:19",
+                            "album": "El Rat\u00f3n",
+                            "artist": [
+                                "El Komander"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rapoger",
+                    "songs": [
+                        {
+                            "name": "Chicken Soup Freestyle",
+                            "length": "1:15",
+                            "album": "Chicken Soup For One",
+                            "artist": [
+                                "Wez Atlas"
+                            ]
+                        },
+                        {
+                            "name": "Violet",
+                            "length": "2:02",
+                            "album": "Violet",
+                            "artist": [
+                                "Connor Price",
+                                "Killa"
+                            ]
+                        },
+                        {
+                            "name": "Laf",
+                            "length": "1:04",
+                            "album": "Laf",
+                            "artist": [
+                                "Gawdlee"
+                            ]
+                        },
+                        {
+                            "name": "Children's Work",
+                            "length": "3:11",
+                            "album": "A Badly Broken Code",
+                            "artist": [
+                                "Dessa"
+                            ]
+                        },
+                        {
+                            "name": "I'm Ready",
+                            "length": "3:09",
+                            "album": "Marvel\u2019s Spider-Man: Miles Morales (Original Video Game Soundtrack)",
+                            "artist": [
+                                "Jaden"
+                            ]
+                        },
+                        {
+                            "name": "Triumph (feat. Ol' Dirty Bastard, Inspectah Deck, Method Man, Cappadonna, U-God, RZA, GZA, Masta Killa, Ghostface Killah & Raekwon)",
+                            "length": "5:38",
+                            "album": "Wu-Tang Forever",
+                            "artist": [
+                                "Wu-Tang Clan",
+                                "Ol' Dirty Bastard",
+                                "Inspectah Deck",
+                                "Method Man",
+                                "Cappadonna",
+                                "U-God",
+                                "RZA",
+                                "GZA",
+                                "Masta Killa",
+                                "Ghostface Killah",
+                                "Raekwon"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "Feels Like Summer",
+                            "length": "4:57",
+                            "album": "Summer Pack",
+                            "artist": [
+                                "Childish Gambino"
+                            ]
+                        },
+                        {
+                            "name": "Stick Season",
+                            "length": "3:02",
+                            "album": "Stick Season",
+                            "artist": [
+                                "Noah Kahan"
+                            ]
+                        },
+                        {
+                            "name": "Know You",
+                            "length": "3:41",
+                            "album": "Stars",
+                            "artist": [
+                                "Andrew Huang"
+                            ]
+                        },
+                        {
+                            "name": "Mountains",
+                            "length": "3:54",
+                            "album": "Folding Leaves",
+                            "artist": [
+                                "Message To Bears"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -5885,7 +6812,7 @@
                             ]
                         },
                         {
-                            "name": "Struck By Lightning (feat. Cavetown)",
+                            "name": "Struck by Lightning (feat. Cavetown)",
                             "length": "2:34",
                             "album": "Struck By Lightning (feat. Cavetown)",
                             "artist": [
@@ -6088,6 +7015,90 @@
                             "album": "Forkl\u00e6dt Som Voksen",
                             "artist": [
                                 "Kim Larsen"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "Fake ID (feat. Gretchen Wilson)",
+                            "length": "3:23",
+                            "album": "Greatest Hits",
+                            "artist": [
+                                "Big & Rich",
+                                "Gretchen Wilson"
+                            ]
+                        },
+                        {
+                            "name": "This Is The Life",
+                            "length": "3:04",
+                            "album": "This Is The Life (eDeluxe)",
+                            "artist": [
+                                "Amy Macdonald"
+                            ]
+                        },
+                        {
+                            "name": "Fast Car",
+                            "length": "3:32",
+                            "album": "Blue",
+                            "artist": [
+                                "Jonas Blue",
+                                "Dakota"
+                            ]
+                        },
+                        {
+                            "name": "Ho Hey",
+                            "length": "2:43",
+                            "album": "The Lumineers (Deluxe Edition)",
+                            "artist": [
+                                "The Lumineers"
+                            ]
+                        },
+                        {
+                            "name": "Should I Stay or Should I Go - Remastered",
+                            "length": "3:08",
+                            "album": "Combat Rock (Remastered)",
+                            "artist": [
+                                "The Clash"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "To Watch The World Spin Without You",
+                            "length": "2:32",
+                            "album": "To Watch The World Spin Without You",
+                            "artist": [
+                                "Mon Rov\u00cea"
+                            ]
+                        },
+                        {
+                            "name": "Painkillers",
+                            "length": "3:33",
+                            "album": "How to: Friend, Love, Freefall",
+                            "artist": [
+                                "Rainbow Kitten Surprise"
+                            ]
+                        },
+                        {
+                            "name": "Shady Boys in Fancy Cars",
+                            "length": "3:37",
+                            "album": "Shady Boys in Fancy Cars",
+                            "artist": [
+                                "Rain McMey"
+                            ]
+                        },
+                        {
+                            "name": "Breezeblocks",
+                            "length": "3:31",
+                            "album": "Breezeblocks",
+                            "artist": [
+                                "Taylor Rae"
                             ]
                         }
                     ]
@@ -7304,6 +8315,212 @@
                             "artist": [
                                 "Quinn XCII",
                                 "Marc E. Bassy"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "People Watching",
+                            "length": "2:38",
+                            "album": "Superache",
+                            "artist": [
+                                "Conan Gray"
+                            ]
+                        },
+                        {
+                            "name": "\u30a2\u30a4\u30c9\u30eb",
+                            "length": "3:33",
+                            "album": "\u30a2\u30a4\u30c9\u30eb",
+                            "artist": [
+                                "YOASOBI"
+                            ]
+                        },
+                        {
+                            "name": "Eyes Closed",
+                            "length": "3:14",
+                            "album": "Boat",
+                            "artist": [
+                                "Ed Sheeran"
+                            ]
+                        },
+                        {
+                            "name": "I Knew You Were Trouble.",
+                            "length": "3:37",
+                            "album": "Red",
+                            "artist": [
+                                "Taylor Swift"
+                            ]
+                        },
+                        {
+                            "name": "Circles",
+                            "length": "3:35",
+                            "album": "Hollywood's Bleeding",
+                            "artist": [
+                                "Post Malone"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pogirl",
+                    "songs": [
+                        {
+                            "name": "Vivir Mi Vida",
+                            "length": "4:12",
+                            "album": "3.0",
+                            "artist": [
+                                "Marc Anthony"
+                            ]
+                        },
+                        {
+                            "name": "Lost On Me",
+                            "length": "2:54",
+                            "album": "There And Back Again",
+                            "artist": [
+                                "Eric Nam"
+                            ]
+                        },
+                        {
+                            "name": "\u307e\u3064\u308a",
+                            "length": "3:45",
+                            "album": "LOVE ALL SERVE ALL",
+                            "artist": [
+                                "Fujii Kaze"
+                            ]
+                        },
+                        {
+                            "name": "idfc",
+                            "length": "4:05",
+                            "album": "deadroses",
+                            "artist": [
+                                "blackbear"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "RATATA",
+                            "length": "2:06",
+                            "album": "Quest For Fire",
+                            "artist": [
+                                "Skrillex",
+                                "Missy Elliott",
+                                "Mr. Oizo"
+                            ]
+                        },
+                        {
+                            "name": "Pink Venom",
+                            "length": "3:06",
+                            "album": "Pink Venom",
+                            "artist": [
+                                "BLACKPINK"
+                            ]
+                        },
+                        {
+                            "name": "Poison Love",
+                            "length": "3:57",
+                            "album": "[Dystopia : Road to Utopia]",
+                            "artist": [
+                                "Dreamcatcher"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rapoger",
+                    "songs": [
+                        {
+                            "name": "HUMBLE.",
+                            "length": "2:57",
+                            "album": "DAMN.",
+                            "artist": [
+                                "Kendrick Lamar"
+                            ]
+                        },
+                        {
+                            "name": "Lucid Dreams",
+                            "length": "3:59",
+                            "album": "Goodbye & Good Riddance",
+                            "artist": [
+                                "Juice WRLD"
+                            ]
+                        },
+                        {
+                            "name": "Rainfall (feat. Tiana Major9)",
+                            "length": "3:17",
+                            "album": "Heavy Is The Head",
+                            "artist": [
+                                "Stormzy",
+                                "Tiana Major9"
+                            ]
+                        },
+                        {
+                            "name": "CHAMPIONS",
+                            "length": "4:02",
+                            "album": "CHAMPIONS",
+                            "artist": [
+                                "NLE Choppa"
+                            ]
+                        },
+                        {
+                            "name": "No Role Modelz",
+                            "length": "4:52",
+                            "album": "2014 Forest Hills Drive",
+                            "artist": [
+                                "J. Cole"
+                            ]
+                        },
+                        {
+                            "name": "BOW",
+                            "length": "3:02",
+                            "album": "FREAKY",
+                            "artist": [
+                                "MFS"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "Can You Hear The Music",
+                            "length": "1:50",
+                            "album": "Oppenheimer (Original Motion Picture Soundtrack)",
+                            "artist": [
+                                "Ludwig G\u00f6ransson"
+                            ]
+                        },
+                        {
+                            "name": "Memories That You Call - ODESZA & Golden Features VIP Remix",
+                            "length": "3:39",
+                            "album": "A Moment Apart (Deluxe Edition)",
+                            "artist": [
+                                "ODESZA",
+                                "Monsoonsiren",
+                                "Golden Features"
+                            ]
+                        },
+                        {
+                            "name": "\u30b9\u30d1\u30fc\u30af\u30eb",
+                            "length": "3:30",
+                            "album": "Sketch",
+                            "artist": [
+                                "Lilas Ikuta"
+                            ]
+                        },
+                        {
+                            "name": "Stoned at the Nail Salon",
+                            "length": "4:26",
+                            "album": "Solar Power (Deluxe Edition)",
+                            "artist": [
+                                "Lorde"
                             ]
                         }
                     ]
@@ -8928,6 +10145,491 @@
                             "album": "The Pod",
                             "artist": [
                                 "Ween"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "normoger",
+                    "songs": [
+                        {
+                            "name": "Hotline Bling",
+                            "length": "4:27",
+                            "album": "Views",
+                            "artist": [
+                                "Drake"
+                            ]
+                        },
+                        {
+                            "name": "Houdini",
+                            "length": "3:22",
+                            "album": "Torches",
+                            "artist": [
+                                "Foster The People"
+                            ]
+                        },
+                        {
+                            "name": "Use Somebody",
+                            "length": "3:50",
+                            "album": "Only By The Night",
+                            "artist": [
+                                "Kings of Leon"
+                            ]
+                        },
+                        {
+                            "name": "Some Nights",
+                            "length": "4:37",
+                            "album": "Some Nights",
+                            "artist": [
+                                "fun."
+                            ]
+                        },
+                        {
+                            "name": "Not Over You",
+                            "length": "3:38",
+                            "album": "Sweeter",
+                            "artist": [
+                                "Gavin DeGraw"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pogirl",
+                    "songs": [
+                        {
+                            "name": "Kalimba",
+                            "length": "5:51",
+                            "album": "Ninja Tuna",
+                            "artist": [
+                                "Mr. Scruff"
+                            ]
+                        },
+                        {
+                            "name": "Daddy, He Got a Tesla",
+                            "length": "3:25",
+                            "album": "The Beautiful Game",
+                            "artist": [
+                                "Vulfpeck",
+                                "Vulf"
+                            ]
+                        },
+                        {
+                            "name": "Zungguzungguguzungguzeng",
+                            "length": "6:27",
+                            "album": "Most Wanted Series - Yellowman",
+                            "artist": [
+                                "Yellowman"
+                            ]
+                        },
+                        {
+                            "name": "born to be real",
+                            "length": "3:27",
+                            "album": "born to be real",
+                            "artist": [
+                                "\u5e38\u95c7\u30c8\u30ef"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "The Chipmunk Song (Christmas Don't Be Late)",
+                            "length": "2:32",
+                            "album": "Alvin And The Chipmunks (Original Motion Picture Soundtrack)",
+                            "artist": [
+                                "Alvin & The Chipmunks"
+                            ]
+                        },
+                        {
+                            "name": "Cbat",
+                            "length": "2:51",
+                            "album": "Satin Panthers",
+                            "artist": [
+                                "Hudson Mohawke"
+                            ]
+                        },
+                        {
+                            "name": "Temporary Secretary - Remastered 2011",
+                            "length": "3:14",
+                            "album": "McCartney II (Special Edition)",
+                            "artist": [
+                                "Paul McCartney"
+                            ]
+                        },
+                        {
+                            "name": "We like to Party! (The Vengabus) Six Flags",
+                            "length": "3:42",
+                            "album": "We like to Party! (The Vengabus)",
+                            "artist": [
+                                "Vengaboys"
+                            ]
+                        },
+                        {
+                            "name": "Free Money",
+                            "length": "0:51",
+                            "album": "Pikuniku (Original Soundtrack)",
+                            "artist": [
+                                "Calum Bowen"
+                            ]
+                        },
+                        {
+                            "name": "money machine",
+                            "length": "1:54",
+                            "album": "1000 gecs",
+                            "artist": [
+                                "100 gecs",
+                                "Laura Les",
+                                "Dylan Brady"
+                            ]
+                        },
+                        {
+                            "name": "B\u00e3tut\u00e3 la clarinet",
+                            "length": "1:24",
+                            "album": "Raving Rabbids / Rabbids Go Home Soundtrack",
+                            "artist": [
+                                "Fanfare Vagabontu"
+                            ]
+                        },
+                        {
+                            "name": "B\u00e3tut\u00e3 din Moldova",
+                            "length": "1:15",
+                            "album": "Raving Rabbids / Rabbids Go Home Soundtrack",
+                            "artist": [
+                                "Fanfare Vagabontu"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rapoger",
+                    "songs": [
+                        {
+                            "name": "Black Skinhead",
+                            "length": "3:08",
+                            "album": "Yeezus",
+                            "artist": [
+                                "Kanye West"
+                            ]
+                        },
+                        {
+                            "name": "You Know I Got It (Reprise)",
+                            "length": "4:39",
+                            "album": "Mastermind (Deluxe)",
+                            "artist": [
+                                "Rick Ross"
+                            ]
+                        },
+                        {
+                            "name": "Rings",
+                            "length": "3:47",
+                            "album": "The Impossible Kid",
+                            "artist": [
+                                "Aesop Rock"
+                            ]
+                        },
+                        {
+                            "name": "Money Trees",
+                            "length": "6:26",
+                            "album": "good kid, m.A.A.d city",
+                            "artist": [
+                                "Kendrick Lamar",
+                                "Jay Rock"
+                            ]
+                        },
+                        {
+                            "name": "Goodness Gracious",
+                            "length": "2:24",
+                            "album": "Goodness Gracious",
+                            "artist": [
+                                "Yung Gravy",
+                                "bbno$",
+                                "BABY GRAVY"
+                            ]
+                        },
+                        {
+                            "name": "\u30bb\u30c3\u30af\u30b9\u5927\u597d\u304d",
+                            "length": "2:22",
+                            "album": "Pink Season",
+                            "artist": [
+                                "Pink Guy"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "Weapon Of Choice",
+                            "length": "3:39",
+                            "album": "The Greatest Hits: Why Try Harder",
+                            "artist": [
+                                "Fatboy Slim"
+                            ]
+                        },
+                        {
+                            "name": "Fungal Funk",
+                            "length": "2:40",
+                            "album": "Crypt of the Necrodancer (Original Game Soundtrack)",
+                            "artist": [
+                                "Danny Baranowsky"
+                            ]
+                        },
+                        {
+                            "name": "Ballin' (with Roddy Ricch)",
+                            "length": "3:00",
+                            "album": "Perfect Ten",
+                            "artist": [
+                                "Mustard",
+                                "Roddy Ricch"
+                            ]
+                        },
+                        {
+                            "name": "Roxanne",
+                            "length": "3:11",
+                            "album": "Outlandos D'Amour (Remastered 2003)",
+                            "artist": [
+                                "The Police"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "Billy",
+            "id": "freezercune",
+            "poges": [
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "Fat Cat Keeps Getting Fatter",
+                            "length": "2:47",
+                            "album": "Perennial Favorites",
+                            "artist": [
+                                "Squirrel Nut Zippers"
+                            ]
+                        },
+                        {
+                            "name": "Purple Yellow Red and Blue",
+                            "length": "4:09",
+                            "album": "Evil Friends",
+                            "artist": [
+                                "Portugal. The Man"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "Mucka Blucka (Bonus Track)",
+                            "length": "1:38",
+                            "album": "Marvin's Marvelous Mechanical Museum",
+                            "artist": [
+                                "Tally Hall"
+                            ]
+                        },
+                        {
+                            "name": "I Love My Dog - Stereo Version",
+                            "length": "2:19",
+                            "album": "Matthew & Son",
+                            "artist": [
+                                "Yusuf / Cat Stevens"
+                            ]
+                        },
+                        {
+                            "name": "Holy Flaming Hammer of Unholy Cosmic Frost",
+                            "length": "4:35",
+                            "album": "Return to the Kingdom of Fife",
+                            "artist": [
+                                "Gloryhammer"
+                            ]
+                        },
+                        {
+                            "name": "Doom Crossing: Eternal Horizons",
+                            "length": "2:33",
+                            "album": "Doom Crossing: Eternal Horizons",
+                            "artist": [
+                                "The Chalkeaters",
+                                "Natalia Natchan"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "Val",
+            "id": "lwbl3eraki1c231y7yp06f7mn",
+            "poges": [
+                {
+                    "name": "pogirl",
+                    "songs": [
+                        {
+                            "name": "PROBLEMZ",
+                            "length": "3:03",
+                            "album": "GOOD TIMES / PROBLEMZ",
+                            "artist": [
+                                "Jungle"
+                            ]
+                        },
+                        {
+                            "name": "Helvetesf\u00f6nster",
+                            "length": "5:55",
+                            "album": "Prequelle",
+                            "artist": [
+                                "Ghost"
+                            ]
+                        },
+                        {
+                            "name": "Level",
+                            "length": "4:35",
+                            "album": "Stranger Today",
+                            "artist": [
+                                "Our Girl"
+                            ]
+                        },
+                        {
+                            "name": "Teeth",
+                            "length": "5:27",
+                            "album": "Melophobia",
+                            "artist": [
+                                "Cage The Elephant"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rat poger",
+                    "songs": [
+                        {
+                            "name": "Rats",
+                            "length": "4:21",
+                            "album": "Prequelle",
+                            "artist": [
+                                "Ghost"
+                            ]
+                        },
+                        {
+                            "name": "4\u00c6M",
+                            "length": "4:30",
+                            "album": "Miss Anthropocene (Deluxe Edition)",
+                            "artist": [
+                                "Grimes"
+                            ]
+                        },
+                        {
+                            "name": "Ramalama (Bang Bang)",
+                            "length": "3:35",
+                            "album": "Ruby Blue",
+                            "artist": [
+                                "R\u00f3is\u00edn Murphy"
+                            ]
+                        },
+                        {
+                            "name": "Starstruck - Single Version",
+                            "length": "3:24",
+                            "album": "Starstruck",
+                            "artist": [
+                                "Sorry"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "rapoger",
+                    "songs": [
+                        {
+                            "name": "Rocket Fuel (feat. De La Soul)",
+                            "length": "3:13",
+                            "album": "Rocket Fuel (feat. De La Soul)",
+                            "artist": [
+                                "DJ Shadow",
+                                "De La Soul"
+                            ]
+                        },
+                        {
+                            "name": "Suburbia",
+                            "length": "3:28",
+                            "album": "OutRun",
+                            "artist": [
+                                "Kavinsky"
+                            ]
+                        },
+                        {
+                            "name": "Get Back",
+                            "length": "4:30",
+                            "album": "The Red Light District",
+                            "artist": [
+                                "Ludacris"
+                            ]
+                        },
+                        {
+                            "name": "Car Radio",
+                            "length": "4:27",
+                            "album": "Vessel",
+                            "artist": [
+                                "Twenty One Pilots"
+                            ]
+                        },
+                        {
+                            "name": "Saturnz Barz (feat. Popcaan)",
+                            "length": "3:01",
+                            "album": "Humanz (Deluxe)",
+                            "artist": [
+                                "Gorillaz",
+                                "Popcaan"
+                            ]
+                        },
+                        {
+                            "name": "NYMPHOLOGY",
+                            "length": "5:06",
+                            "album": "PORTALS",
+                            "artist": [
+                                "Melanie Martinez"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "street poger 6",
+                    "songs": [
+                        {
+                            "name": "In Other Words",
+                            "length": "3:29",
+                            "album": "Too Soon to Cry",
+                            "artist": [
+                                "Defoe"
+                            ]
+                        },
+                        {
+                            "name": "Salad",
+                            "length": "4:34",
+                            "album": "Blondshell",
+                            "artist": [
+                                "Blondshell"
+                            ]
+                        },
+                        {
+                            "name": "Jenny",
+                            "length": "4:05",
+                            "album": "Walk The Moon",
+                            "artist": [
+                                "WALK THE MOON"
+                            ]
+                        },
+                        {
+                            "name": "Johnny Wants To Fight",
+                            "length": "4:00",
+                            "album": "This Is How The World Ends",
+                            "artist": [
+                                "Badflower"
                             ]
                         }
                     ]
