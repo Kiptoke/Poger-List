@@ -1480,6 +1480,52 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "kroger",
+                    "songs": [
+                        {
+                            "name": "Cherry",
+                            "length": "3:49",
+                            "album": "Cherry",
+                            "artist": [
+                                "Snail's House"
+                            ]
+                        },
+                        {
+                            "name": "Almond",
+                            "length": "3:29",
+                            "album": "\u6a39\u5f71",
+                            "artist": [
+                                "Crazy Ken Band"
+                            ]
+                        },
+                        {
+                            "name": "Juice",
+                            "length": "2:52",
+                            "album": "Of Course You Do",
+                            "artist": [
+                                "Slothrust"
+                            ]
+                        },
+                        {
+                            "name": "Potato Salad",
+                            "length": "3:02",
+                            "album": "Potato Salad",
+                            "artist": [
+                                "Tyler, The Creator",
+                                "A$AP Rocky"
+                            ]
+                        },
+                        {
+                            "name": "Sundae",
+                            "length": "2:24",
+                            "album": "Telltale Signs",
+                            "artist": [
+                                "Sobs"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -2828,6 +2874,51 @@
                             "album": "Yoshimi Battles the Pink Robots",
                             "artist": [
                                 "The Flaming Lips"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "kroger",
+                    "songs": [
+                        {
+                            "name": "Video Game",
+                            "length": "4:15",
+                            "album": "The Ascension",
+                            "artist": [
+                                "Sufjan Stevens"
+                            ]
+                        },
+                        {
+                            "name": "Maple Syrup",
+                            "length": "4:03",
+                            "album": "When We Were Friends",
+                            "artist": [
+                                "The Backseat Lovers"
+                            ]
+                        },
+                        {
+                            "name": "Orange Juice",
+                            "length": "4:57",
+                            "album": "Stick Season",
+                            "artist": [
+                                "Noah Kahan"
+                            ]
+                        },
+                        {
+                            "name": "Cherry Wine - Live",
+                            "length": "4:00",
+                            "album": "Hozier (Expanded Edition)",
+                            "artist": [
+                                "Hozier"
+                            ]
+                        },
+                        {
+                            "name": "Clams Clams Clams",
+                            "length": "1:08",
+                            "album": "Omori (Original Game Soundtrack), Pt. 2",
+                            "artist": [
+                                "Omori"
                             ]
                         }
                     ]
@@ -4404,6 +4495,52 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "kroger",
+                    "songs": [
+                        {
+                            "name": "Potato Knishes",
+                            "length": "1:18",
+                            "album": "Ratboy Genius Dreams: Minecraft",
+                            "artist": [
+                                "Ratboy Genius",
+                                "Little King John"
+                            ]
+                        },
+                        {
+                            "name": "Japanese Soda",
+                            "length": "3:26",
+                            "album": "Japanese Soda",
+                            "artist": [
+                                "One South Lark"
+                            ]
+                        },
+                        {
+                            "name": "Candy",
+                            "length": "2:28",
+                            "album": "Let Me Out",
+                            "artist": [
+                                "nelward"
+                            ]
+                        },
+                        {
+                            "name": "Fried Noodles",
+                            "length": "5:55",
+                            "album": "PINK",
+                            "artist": [
+                                "Asako Toki"
+                            ]
+                        },
+                        {
+                            "name": "Layer Cake",
+                            "length": "2:27",
+                            "album": "PERSONA5 ORIGINAL SOUNDTRACK",
+                            "artist": [
+                                "\u30a2\u30c8\u30e9\u30b9\u30b5\u30a6\u30f3\u30c9\u30c1\u30fc\u30e0"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -5311,6 +5448,52 @@
                             "album": "This Too Shall Pass",
                             "artist": [
                                 "Wez Atlas"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "kroger",
+                    "songs": [
+                        {
+                            "name": "Honeydew",
+                            "length": "4:33",
+                            "album": "Honeydew",
+                            "artist": [
+                                "Singto Conley",
+                                "Hikaru Station"
+                            ]
+                        },
+                        {
+                            "name": "Mirror",
+                            "length": "5:06",
+                            "album": "Nurture",
+                            "artist": [
+                                "Porter Robinson"
+                            ]
+                        },
+                        {
+                            "name": "Pink Lemonade",
+                            "length": "3:23",
+                            "album": "Saturday",
+                            "artist": [
+                                "Wez Atlas"
+                            ]
+                        },
+                        {
+                            "name": "CIGARETTES",
+                            "length": "3:10",
+                            "album": "None Of The Clocks Work",
+                            "artist": [
+                                "Amir Obe"
+                            ]
+                        },
+                        {
+                            "name": "Wildflowers",
+                            "length": "3:10",
+                            "album": "Wildflowers",
+                            "artist": [
+                                "Tom Petty"
                             ]
                         }
                     ]
@@ -7078,6 +7261,52 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "kroger",
+                    "songs": [
+                        {
+                            "name": "Mixed Nuts",
+                            "length": "3:33",
+                            "album": "Mixed Nuts",
+                            "artist": [
+                                "OFFICIAL HIGE DANDISM"
+                            ]
+                        },
+                        {
+                            "name": "BINKUSUNO SAKE",
+                            "length": "3:26",
+                            "album": "UTA'S SONGS ONE PIECE FILM RED",
+                            "artist": [
+                                "Ado"
+                            ]
+                        },
+                        {
+                            "name": "Ice Cream Cake",
+                            "length": "3:11",
+                            "album": "Ice Cream Cake - The 1st Mini Album",
+                            "artist": [
+                                "Red Velvet"
+                            ]
+                        },
+                        {
+                            "name": "Something Super Sweet",
+                            "length": "2:52",
+                            "album": "Are You Scared Yet?",
+                            "artist": [
+                                "Rory Webley"
+                            ]
+                        },
+                        {
+                            "name": "Coffee (feat. Marc E. Bassy)",
+                            "length": "3:00",
+                            "album": "A Letter To My Younger Self",
+                            "artist": [
+                                "Quinn XCII",
+                                "Marc E. Bassy"
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -8654,6 +8883,51 @@
                             "album": "Pizza Tower Soundtrack",
                             "artist": [
                                 "ClascyJitto"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "kroger",
+                    "songs": [
+                        {
+                            "name": "Cat Food",
+                            "length": "4:53",
+                            "album": "In The Wake Of Poseidon",
+                            "artist": [
+                                "King Crimson"
+                            ]
+                        },
+                        {
+                            "name": "MANGO JUICE",
+                            "length": "4:28",
+                            "album": "GOLD",
+                            "artist": [
+                                "\u3059\u304b\u3093\u3061"
+                            ]
+                        },
+                        {
+                            "name": "Pork And Beans",
+                            "length": "3:09",
+                            "album": "Weezer",
+                            "artist": [
+                                "Weezer"
+                            ]
+                        },
+                        {
+                            "name": "Milkshake",
+                            "length": "3:55",
+                            "album": "boy irl girl url",
+                            "artist": [
+                                "meganeko"
+                            ]
+                        },
+                        {
+                            "name": "Pollo Asado",
+                            "length": "2:44",
+                            "album": "The Pod",
+                            "artist": [
+                                "Ween"
                             ]
                         }
                     ]
