@@ -1,5 +1,8 @@
 # ----------- Python Gitignore -----------
 
+# Custom ignores
+python/manual_update.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
