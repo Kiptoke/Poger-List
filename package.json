@@ -11,6 +11,7 @@
   "devDependencies": {
     "@inkline/config": "^1.0.0",
     "@inkline/plugin": "^1.0.0",
+    "@nuxt/content": "^2.7.2",
     "@nuxt/image-edge": "^1.0.0-28059208.2abef1b",
     "@types/node": "^18",
     "nuxt": "^3.4.3",

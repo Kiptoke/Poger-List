@@ -1,7 +1,25 @@
 <script setup>
-	const file = await import("../content/json/playlists.json");
+	import pl_file from '../content/json/playlists.json';
+	
+	const playlists = reactive([]);
+	let data = [];
+	let counter = 0;
+	
+	// Javascript state can go die for all I care
+	pl_file['playlists'].forEach(async (value) => {
+		var playlist = await import(`../content/json/playlists/${value}.json`);
+		data.push(playlist);
+		counter++;
+		if(counter === pl_file['playlists'].length) {
+			callback()
+		}
+	});
 
-	let playlists = file['playlists'];
+	function callback() {
+		console.log(data);
+		playlists.push(...data);
+		console.log(playlists);
+	}
 
 	let user_table = {
 		'h9wxnd3xvrfdfjv7r9p3ihz68' : 'kaavya', 
@@ -16,12 +34,12 @@
 		'freezercune': 'billy',
 		'lwbl3eraki1c231y7yp06f7mn': 'val'
 	}
-	
+
 	function imageURL(input) {
 		if (input.name == "pogern't") {
-			return new URL(`../content/pogers/pogernt.jpg`, import.meta.url)
+			return new URL(`../content/pogers/pogernt.jpg`, import.meta.url);
 		}
-		return new URL(`../content/pogers/${input.name}.jpg`, import.meta.url)
+		return new URL(`../content/pogers/${input.name}.jpg`, import.meta.url);
 	}
 
 	function dateAdded(input) {
@@ -32,19 +50,19 @@
 	}
 
 	function getUser(input) {
-		return user_table[input]
+		return user_table[input];
 	}
 
 	function getHead(input) {
-		return new URL(`../content/heads/${user_table[input]}.png`, import.meta.url)
+		return new URL(`../content/heads/${user_table[input]}.png`, import.meta.url);
 	}
 
 	function getArtists(artists) {
-		let artist_list = []
+		let artist_list = [];
 		for (const art of artists) {
-			artist_list.push(art.name)
+			artist_list.push(art.name);
 		}
-		return artist_list
+		return artist_list;
 	}
 </script>
 

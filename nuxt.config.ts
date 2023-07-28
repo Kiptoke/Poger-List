@@ -2,7 +2,8 @@
 import { resolve } from 'path';
 
 export default defineNuxtConfig({
-    modules: ['@inkline/plugin/nuxt', '@inkline/plugin/nuxt', '@nuxt/image-edge'],
+    modules: ['@inkline/plugin/nuxt', '@inkline/plugin/nuxt', '@nuxt/image-edge', '@nuxt/content'],
+    content: {},
     inkline: {
         /**
          * @inkline/config
