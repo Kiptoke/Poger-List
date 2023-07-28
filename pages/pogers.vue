@@ -12,7 +12,9 @@
 		'blackupblackup5' : 'aman', 
 		'kush_p' : 'kushal', 
 		'je1mzixeidgq3qxp5v10r4iih' : 'faiyaz', 
-		'rennylop': 'renny'
+		'rennylop': 'renny',
+		'freezercune': 'billy',
+		'lwbl3eraki1c231y7yp06f7mn': 'val'
 	}
 	
 	function imageURL(input) {

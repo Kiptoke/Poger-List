@@ -7,7 +7,9 @@ USER_TABLE = {
     'aman': 'blackupblackup5', 
     'kushal': 'kush_p', 
     'faiyaz': 'je1mzixeidgq3qxp5v10r4iih', 
-    'renny': 'rennylop'
+    'renny': 'rennylop',
+    'billy': 'freezercune',
+    'val': 'lwbl3eraki1c231y7yp06f7mn'
 }
 
 def convertMS(ms):
