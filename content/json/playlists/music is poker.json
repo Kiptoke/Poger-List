@@ -13,7 +13,7 @@
     "images": [
         {
             "height": null,
-            "url": "https://images-ak.spotifycdn.com/image/ab67706c0000bebb6d05b5cf08d162fcee95ba3c",
+            "url": "https://i.scdn.co/image/ab67706c0000bebb6d05b5cf08d162fcee95ba3c",
             "width": null
         }
     ],
@@ -8351,7 +8351,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -8913,7 +8912,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -9379,7 +9377,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -10229,7 +10226,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -11128,7 +11124,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -11590,7 +11585,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -12053,7 +12047,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -12619,7 +12612,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -13083,7 +13075,6 @@
                             "EE",
                             "EG",
                             "ES",
-                            "ET",
                             "FI",
                             "FJ",
                             "FM",
@@ -13479,5 +13470,5 @@
     },
     "type": "playlist",
     "uri": "spotify:playlist:3aJiDadyEFDsZScRsvmfiV",
-    "time": "2023-07-28 17:35:51"
+    "time": "2023-07-28 21:48:17"
 }
