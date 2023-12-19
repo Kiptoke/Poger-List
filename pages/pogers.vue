@@ -6,6 +6,7 @@
 	let counter = 0;
 	
 	// Javascript state can go die for all I care
+	// FIVE HOURS TO LOAD SOME GOD DAMN JSON DATA
 	pl_file['playlists'].forEach(async (value) => {
 		var playlist = await import(`../content/json/playlists/${value}.json`);
 		data.push(playlist);

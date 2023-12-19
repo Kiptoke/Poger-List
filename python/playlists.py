@@ -89,5 +89,33 @@ def load_playlists(client_id, client_secret):
     with pl_output.open('w', encoding='utf-8') as file:
             json.dump(pl, file, indent=4)     
             
+def question(client_id, client_secret):
+    input = Path.cwd()/'content'/'json'/'playlist_ids.json'
+    pl_output = Path.cwd()/'content'/'json'/'playlists.json'
+    bearer = get_bearer(client_id, client_secret)
+    load_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    pl = {"playlists": []}
+    
+    print("Collecting playlists...")
+    
+    with input.open('r', encoding='utf-8') as i:
+        ids = json.load(i)['playlists']
+    
+    print(f"Read melody is poger")  # Melody is Poger is manually made, so this is printed for consistency
+    pl['playlists'].append("melody is poger")
+        
+    for id in ids:
+        playlist = get_playlist(id, bearer)
+        name = playlist["name"]
+        playlist['time'] = load_time
+        print(f"Read {name}")
+        
+        if name == "pogern't":
+            name = "pogernt"
+        
+        pl['playlists'].append(name)
+        
+    print(pl)   
+            
 if __name__ == "__main__":
     load_playlists()
