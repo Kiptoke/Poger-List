@@ -35,12 +35,9 @@ def get_playlist(playlist_id, bearer):
     
     image = Path.cwd()/'content'/'pogers'
     img = requests.get(pl['images'][0]['url']).content
-    if pl['name'] == "pogern't":
-        with open(f"{image}/pogernt.jpg", 'wb') as handler:
-            handler.write(img)
-    else:
-        with open(f"{image}/{pl['name']}.jpg", 'wb') as handler:
-            handler.write(img)
+    cleanName = pl['name'].replace("'","")
+    with open(f"{image}/{cleanName}.jpg", 'wb') as handler:
+        handler.write(img)
     
     return pl
 
@@ -77,8 +74,7 @@ def load_playlists(client_id, client_secret):
         playlist['time'] = load_time
         print(f"Read {name}")
         
-        if name == "pogern't":
-            name = "pogernt"
+        name = name.replace("'", "")
         
         pl['playlists'].append(name)
         output = Path.cwd()/'content'/'json'/'playlists'/f"{name}.json"
