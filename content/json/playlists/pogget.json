@@ -13,7 +13,7 @@
     "images": [
         {
             "height": null,
-            "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb05c0e979d5b947a0174a459d",
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb05c0e979d5b947a0174a459d",
             "width": null
         }
     ],
@@ -10181,5 +10181,5 @@
     },
     "type": "playlist",
     "uri": "spotify:playlist:4rvTKzFa5vDTyOpqORLftY",
-    "time": "2023-12-19 01:49:48"
+    "time": "2023-12-19 01:58:50"
 }
