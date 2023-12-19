@@ -88,7 +88,8 @@ def load_playlists(client_id, client_secret):
     
     with pl_output.open('w', encoding='utf-8') as file:
             json.dump(pl, file, indent=4)     
-            
+
+# This purely was made to test what the length of all poges was   
 def question(client_id, client_secret):
     input = Path.cwd()/'content'/'json'/'playlist_ids.json'
     pl_output = Path.cwd()/'content'/'json'/'playlists.json'
