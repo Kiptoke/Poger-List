@@ -33,14 +33,13 @@
 		'je1mzixeidgq3qxp5v10r4iih' : 'faiyaz', 
 		'rennylop': 'renny',
 		'freezercune': 'billy',
-		'lwbl3eraki1c231y7yp06f7mn': 'val'
+		'lwbl3eraki1c231y7yp06f7mn': 'val',
+		'vyfxzshzsqdekexbl6h6ztqoh': 'dilan'
 	}
 
 	function imageURL(input) {
-		if (input.name == "pogern't") {
-			return new URL(`../content/pogers/pogernt.jpg`, import.meta.url);
-		}
-		return new URL(`../content/pogers/${input.name}.jpg`, import.meta.url);
+		
+		return new URL(`../content/pogers/${input.name.replace("'", "")}.jpg`, import.meta.url);
 	}
 
 	function dateAdded(input) {
