@@ -2335,7 +2335,7 @@
                     "id": "0zg9XJblvC2ZljsatbP2Rp",
                     "is_local": false,
                     "name": "Customize",
-                    "popularity": 3,
+                    "popularity": 2,
                     "preview_url": "https://p.scdn.co/mp3-preview/ccea4ffd75d6bac395a6a7bf85bb49c022301759?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -3261,7 +3261,7 @@
                     "id": "4pZ0ix43tzJgNx28X8A1qW",
                     "is_local": false,
                     "name": "Gymnopedie No. 1",
-                    "popularity": 13,
+                    "popularity": 14,
                     "preview_url": "https://p.scdn.co/mp3-preview/c4b187008c40f664307391b7b6bc92c5dc07d16c?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 2,
@@ -4669,7 +4669,7 @@
                     "id": "49U21MjHXlWGrXnnDvf19I",
                     "is_local": false,
                     "name": "Out Loud",
-                    "popularity": 23,
+                    "popularity": 20,
                     "preview_url": "https://p.scdn.co/mp3-preview/57f683132a9b862ea95997029dbed90c1cd742f7?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -5671,7 +5671,7 @@
                     "id": "4xvvM5oA8n6vzLkyIc0OzL",
                     "is_local": false,
                     "name": "FREE",
-                    "popularity": 42,
+                    "popularity": 36,
                     "preview_url": "https://p.scdn.co/mp3-preview/228ec6043eed33bf5ebc2de32c28a50d3e699c23?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -7069,7 +7069,7 @@
                     "id": "6oYY9Y4OrcZQqk47DDcQCv",
                     "is_local": false,
                     "name": "Wonder",
-                    "popularity": 21,
+                    "popularity": 19,
                     "preview_url": "https://p.scdn.co/mp3-preview/9792cd9dae19e916775cae8a12a6996ef3361c82?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -7555,7 +7555,7 @@
                     "id": "1zpEXCvXPtLdnGunF612Pu",
                     "is_local": false,
                     "name": "Complicated",
-                    "popularity": 17,
+                    "popularity": 31,
                     "preview_url": "https://p.scdn.co/mp3-preview/cfeda27ea8c82c0b75d2b292b4834a10cab969b3?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -7585,16 +7585,6 @@
                         "artists": [
                             {
                                 "external_urls": {
-                                    "spotify": "https://open.spotify.com/artist/1IwzmBTWI4CzUNsZM7Zqd8"
-                                },
-                                "href": "https://api.spotify.com/v1/artists/1IwzmBTWI4CzUNsZM7Zqd8",
-                                "id": "1IwzmBTWI4CzUNsZM7Zqd8",
-                                "name": "Dj Cutman",
-                                "type": "artist",
-                                "uri": "spotify:artist:1IwzmBTWI4CzUNsZM7Zqd8"
-                            },
-                            {
-                                "external_urls": {
                                     "spotify": "https://open.spotify.com/artist/5Rag9HXm2RpUTrleOvZK8D"
                                 },
                                 "href": "https://api.spotify.com/v1/artists/5Rag9HXm2RpUTrleOvZK8D",
@@ -7602,6 +7592,16 @@
                                 "name": "Bopert",
                                 "type": "artist",
                                 "uri": "spotify:artist:5Rag9HXm2RpUTrleOvZK8D"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/1IwzmBTWI4CzUNsZM7Zqd8"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/1IwzmBTWI4CzUNsZM7Zqd8",
+                                "id": "1IwzmBTWI4CzUNsZM7Zqd8",
+                                "name": "Dj Cutman",
+                                "type": "artist",
+                                "uri": "spotify:artist:1IwzmBTWI4CzUNsZM7Zqd8"
                             }
                         ],
                         "available_markets": [
@@ -7822,16 +7822,6 @@
                     "artists": [
                         {
                             "external_urls": {
-                                "spotify": "https://open.spotify.com/artist/1IwzmBTWI4CzUNsZM7Zqd8"
-                            },
-                            "href": "https://api.spotify.com/v1/artists/1IwzmBTWI4CzUNsZM7Zqd8",
-                            "id": "1IwzmBTWI4CzUNsZM7Zqd8",
-                            "name": "Dj Cutman",
-                            "type": "artist",
-                            "uri": "spotify:artist:1IwzmBTWI4CzUNsZM7Zqd8"
-                        },
-                        {
-                            "external_urls": {
                                 "spotify": "https://open.spotify.com/artist/5Rag9HXm2RpUTrleOvZK8D"
                             },
                             "href": "https://api.spotify.com/v1/artists/5Rag9HXm2RpUTrleOvZK8D",
@@ -7839,6 +7829,16 @@
                             "name": "Bopert",
                             "type": "artist",
                             "uri": "spotify:artist:5Rag9HXm2RpUTrleOvZK8D"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/1IwzmBTWI4CzUNsZM7Zqd8"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/1IwzmBTWI4CzUNsZM7Zqd8",
+                            "id": "1IwzmBTWI4CzUNsZM7Zqd8",
+                            "name": "Dj Cutman",
+                            "type": "artist",
+                            "uri": "spotify:artist:1IwzmBTWI4CzUNsZM7Zqd8"
                         }
                     ],
                     "available_markets": [
@@ -8041,7 +8041,7 @@
                     "id": "0a2xxSetyDwOeVqVKSJ3S7",
                     "is_local": false,
                     "name": "Droppin' a Bop",
-                    "popularity": 22,
+                    "popularity": 18,
                     "preview_url": "https://p.scdn.co/mp3-preview/5c8849cb221cb045477b1a5e5912aff1e6bb1ff3?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -9459,7 +9459,7 @@
                     "id": "1DoiuquZIz4uU93fsZBLey",
                     "is_local": false,
                     "name": "\u307e\u3069\u308d\u307f",
-                    "popularity": 11,
+                    "popularity": 12,
                     "preview_url": "https://p.scdn.co/mp3-preview/01eb28599ce58d81f1ce4a14911812967ce8278d?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -9923,7 +9923,7 @@
                     "id": "2jc9qA6VPwvLlLnS3hX2Cw",
                     "is_local": false,
                     "name": "\u2260",
-                    "popularity": 1,
+                    "popularity": 0,
                     "preview_url": "https://p.scdn.co/mp3-preview/3d76f978118af92a2a97f6995626d94b4e29b7cb?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 6,
@@ -10389,7 +10389,7 @@
                     "id": "2Y470nfoNazsnlBY6J9gjm",
                     "is_local": false,
                     "name": "Uzun \u0130nce Bir Yolday\u0131m",
-                    "popularity": 6,
+                    "popularity": 5,
                     "preview_url": "https://p.scdn.co/mp3-preview/8d58c1388c879f562f567dcb0ebac14b6f1c873c?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 3,
@@ -10885,7 +10885,7 @@
                     "id": "2sdQsMO4eC2Onw3WOOPp6n",
                     "is_local": false,
                     "name": "Catch me if you can!",
-                    "popularity": 24,
+                    "popularity": 23,
                     "preview_url": "https://p.scdn.co/mp3-preview/81f95963254b3eb2b9e73232b07779342fabfbb3?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -11351,7 +11351,7 @@
                     "id": "7bJBg3HcIcq01FNAwHa0Cs",
                     "is_local": false,
                     "name": "Night Drive",
-                    "popularity": 24,
+                    "popularity": 20,
                     "preview_url": "https://p.scdn.co/mp3-preview/6153671c977d53f1285597322b9b7da2d44eca82?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -11817,7 +11817,7 @@
                     "id": "5tzKLWCUnqi951e5dh8dMy",
                     "is_local": false,
                     "name": "Tomorrow",
-                    "popularity": 40,
+                    "popularity": 39,
                     "preview_url": "https://p.scdn.co/mp3-preview/53d8b299396fac0b46e36073476824c160ac52dc?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -11837,5 +11837,5 @@
     },
     "type": "playlist",
     "uri": "spotify:playlist:1p1RwpqBO2cHO1s0hVXyVe",
-    "time": "2023-11-11 00:25:21"
+    "time": "2023-12-19 01:46:50"
 }
