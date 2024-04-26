@@ -13,7 +13,7 @@
     "images": [
         {
             "height": null,
-            "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb05c0e979d5b947a0174a459d",
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb05c0e979d5b947a0174a459d",
             "width": null
         }
     ],
@@ -499,7 +499,7 @@
                     "id": "0TmyUXS2L6qBjNHSgzg13k",
                     "is_local": false,
                     "name": "yoshis island (world 7x7 mix)",
-                    "popularity": 26,
+                    "popularity": 27,
                     "preview_url": "https://p.scdn.co/mp3-preview/fd0a24f6a085ef1367e547a79a74d10f42aeba78?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 7,
@@ -2329,7 +2329,7 @@
                     "id": "39NDBdU5Xkm5pCFGa5kZtI",
                     "is_local": false,
                     "name": "Ladders",
-                    "popularity": 73,
+                    "popularity": 74,
                     "preview_url": "https://p.scdn.co/mp3-preview/fac1365987dfd894cd6abaffd3b9c341241e9a94?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 7,
@@ -2834,9 +2834,7 @@
                                 "uri": "spotify:artist:37J1PlAkhRK7yrZUtqaUpQ"
                             }
                         ],
-                        "available_markets": [
-                            "US"
-                        ],
+                        "available_markets": [],
                         "external_urls": {
                             "spotify": "https://open.spotify.com/album/6NFKb9CY2JbbnsethcARUX"
                         },
@@ -2878,9 +2876,7 @@
                             "uri": "spotify:artist:37J1PlAkhRK7yrZUtqaUpQ"
                         }
                     ],
-                    "available_markets": [
-                        "US"
-                    ],
+                    "available_markets": [],
                     "disc_number": 1,
                     "duration_ms": 189956,
                     "episode": false,
@@ -2895,8 +2891,8 @@
                     "id": "77wq6jYIE2g0VcMjRfHdY0",
                     "is_local": false,
                     "name": "Black Betty",
-                    "popularity": 47,
-                    "preview_url": "https://p.scdn.co/mp3-preview/ba13ff9bfd49bed145654dc9cda99a80f17367b7?cid=6154af05653b4352bb3b6a871bb6e30e",
+                    "popularity": 29,
+                    "preview_url": null,
                     "track": true,
                     "track_number": 1,
                     "type": "track",
@@ -3361,7 +3357,7 @@
                     "id": "6FWZBBsK2q1PJBwRJ4SiyD",
                     "is_local": false,
                     "name": "Bottom of a Bender",
-                    "popularity": 40,
+                    "popularity": 39,
                     "preview_url": "https://p.scdn.co/mp3-preview/9c16127525805b19635fc0aacb1346bf8f518906?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 8,
@@ -3457,7 +3453,7 @@
                     "id": "0LvDfaAwLu83AJunAWa5Mn",
                     "is_local": false,
                     "name": "Can't get you out of my mind",
-                    "popularity": 4,
+                    "popularity": 0,
                     "preview_url": null,
                     "track": true,
                     "track_number": 4,
@@ -3923,7 +3919,7 @@
                     "id": "2YVzshKzFglQLBXPYNpGI8",
                     "is_local": false,
                     "name": "HULA HOOP",
-                    "popularity": 49,
+                    "popularity": 48,
                     "preview_url": null,
                     "track": true,
                     "track_number": 1,
@@ -4389,7 +4385,7 @@
                     "id": "42hRFRcUBzjX00cMQneg57",
                     "is_local": false,
                     "name": "Armagetten",
-                    "popularity": 8,
+                    "popularity": 7,
                     "preview_url": "https://p.scdn.co/mp3-preview/193f84698a896053d63823796b1d70fa06e08127?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -4489,7 +4485,7 @@
                     "id": "0dKWhFl9gjNw8KkD7Ew3C2",
                     "is_local": false,
                     "name": "\u9022\u5f15",
-                    "popularity": 32,
+                    "popularity": 31,
                     "preview_url": "https://p.scdn.co/mp3-preview/5468e1aaf52f60a0baa5f8967fad627a47f09a8f?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 2,
@@ -4777,7 +4773,7 @@
                     "id": "3xml6p9dSyY4hVPF6UGtdc",
                     "is_local": false,
                     "name": "\ubc14\ub78c\uc544 (Wind Blows)",
-                    "popularity": 4,
+                    "popularity": 0,
                     "preview_url": null,
                     "track": true,
                     "track_number": 3,
@@ -5709,7 +5705,7 @@
                     "id": "4ghFfl5uKi45yybjTniMeJ",
                     "is_local": false,
                     "name": "come around",
-                    "popularity": 41,
+                    "popularity": 40,
                     "preview_url": "https://p.scdn.co/mp3-preview/8649adc7b9b7070d87195a73fc6a58d1882be8a4?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -6271,7 +6267,7 @@
                     "id": "3IznIgmXtrUaoPWpQTy5jB",
                     "is_local": false,
                     "name": "Not Allowed",
-                    "popularity": 89,
+                    "popularity": 90,
                     "preview_url": "https://p.scdn.co/mp3-preview/b1f61776e5425927fac6f4e79733d9fb8baf20dc?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 5,
@@ -6737,7 +6733,7 @@
                     "id": "0lIuxHZkiRZBeKH0Q4q5Vy",
                     "is_local": false,
                     "name": "Someone Else's Star",
-                    "popularity": 42,
+                    "popularity": 43,
                     "preview_url": null,
                     "track": true,
                     "track_number": 10,
@@ -8697,7 +8693,7 @@
                     "id": "2F4FNcz68howQWD4zaGJSi",
                     "is_local": false,
                     "name": "The Lion Sleeps Tonight (Wimoweh)",
-                    "popularity": 63,
+                    "popularity": 64,
                     "preview_url": "https://p.scdn.co/mp3-preview/1d782ec93072f5ed7b6ada0e13a41af3dd3d356a?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -9695,7 +9691,7 @@
                     "id": "2xwbq5pNtjyUSa3a82zOQM",
                     "is_local": false,
                     "name": "For (YOOHYEON SOLO)",
-                    "popularity": 1,
+                    "popularity": 0,
                     "preview_url": null,
                     "track": true,
                     "track_number": 12,
@@ -10161,7 +10157,7 @@
                     "id": "7sOXsL2oJpa8dGXUKoTM0G",
                     "is_local": false,
                     "name": "R.o.S.E BLUE (Prod. ESTi)",
-                    "popularity": 42,
+                    "popularity": 43,
                     "preview_url": "https://p.scdn.co/mp3-preview/c928e386e7878ee4e7fd27ac1b2c4552c207d0c1?cid=6154af05653b4352bb3b6a871bb6e30e",
                     "track": true,
                     "track_number": 1,
@@ -10181,5 +10177,5 @@
     },
     "type": "playlist",
     "uri": "spotify:playlist:4rvTKzFa5vDTyOpqORLftY",
-    "time": "2023-12-19 02:36:05"
+    "time": "2024-02-11 03:16:45"
 }
