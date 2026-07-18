@@ -6,7 +6,7 @@ USER_TABLE = {
     '31giifsv5jaavljfciuappzifs3u': 'naveen', 
     'blackupblackup5':              'aman', 
     'kush_p':                       'kushal', 
-    'je1mzixeidgq3qxp5v10r4iih':    'faiyaz', 
+    'je1mzixeidgq3qxp5v10r4iih':    'farah', 
     'rennylop':                     'renny',
     'freezercune':                  'billy',
     'lwbl3eraki1c231y7yp06f7mn':    'val',
@@ -66,4 +66,6 @@ PLAYLISTS = [
     "0v6QlVZFVwLHJd9SQsxOWc", # jerkoger
     "0fSaha56OvVsJgfVpm7Ej0", # smoger 2
     "64RmAU3uZSxSbbpNC4hVH8", # pogorb
+    "5qLQAC82Qb4kv3DYjWi5ed", # can't have poge in detroit
+    "4rsYCVUj0EjF4FuQ58z4H7", # pogk
 ]
