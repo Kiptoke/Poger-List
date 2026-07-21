@@ -1,8 +1,14 @@
 import requests
 import os
+import json
+import pandas as pd
 from dotenv import load_dotenv
-from supabase import create_client, Client
-from constants import PLAYLISTS, USER_TABLE
+from constants import USER_TABLE, POGERS_FILENAME
+
+def get_playlist_id(raw_url):    
+    url = raw_url.strip().split('/')[-1].split('?')[0]
+    
+    return url
 
 def get_bearer():
     params = {
@@ -24,18 +30,45 @@ def get_bearer():
     return auth
     
 def get_playlist(playlist, bearer):
+    
+    # STEP 0 - If the playlist ID already exists, don't even do anything
+    pogers = pd.read_csv(POGERS_FILENAME)
+    if (playlist in pogers['id'].values):
+        repeat = pogers.loc[pogers['id']==playlist].at[0,'name']
+        print(f"{repeat} already has been processed!")
+        return
+    
+    # STEP 1 - Get reponse from Spotify API
     endpoint = f'https://api.spotify.com/v1/playlists/{playlist}'
     headers = {
         'Authorization': bearer
     }
-    json = requests.get(
+    response = requests.get(
         endpoint, 
         headers = headers
     ).json()
+    
+    # STEP 2- Sanitize response
+    if 'tracks' in response:
+        response.pop('tracks')
+        
+    pl_name = response['name'].replace(' ', '_').replace("'", "")
+     
+    # STEP 3 - Add to poger.csv
+    new_row = pd.DataFrame({
+        'id': playlist,                             
+        'name': response['name'],                     
+        'pl_name': pl_name,                             
+        'description': response['description'],              
+        'url': response['external_urls']['spotify'],  
+        'image_url': response['images'][0]['url']           
+    }, index=[0])
+    pd.concat([pogers, new_row]).to_csv(POGERS_FILENAME, index=False)
+        
+    # STEP 4 - Generate playlist data csv
 
-    return json
 
-def process_playlist(playlist, playlist_id):
+def process_playlist_old(playlist, playlist_id):
     songs = []
     index = 1
 
@@ -72,25 +105,21 @@ def process_playlist(playlist, playlist_id):
 
     return songs
 
-def publish_playlist(pl):
-    url: str = os.getenv('NEXT_PUBLIC_SUPABASE_URL')
-    key: str = os.getenv('NEXT_PUBLIC_SUPABASE_ANON_KEY')
-    supabase: Client = create_client(url, key)
+# STEPS TO RUNNING THIS SCRIPT
+# 1. Run venv\Scripts\Activate.ps1 in Powershell
+# 2. Run pip install -r requirements.txt
+# 3. Run file
 
-    response = (
-        supabase.table('songs')
-        .upsert(pl)
-        .execute()
-    )
-
-    print(f"{response.data[0]['poger']} ({len(response.data)} songs) processed")
-
-    return
-    
 if __name__ == "__main__":
     load_dotenv()
+    
+    print("Please input the URL of the Poger playlist:")
+    raw_url = input()
+    print('\n')
+    
     bearer = get_bearer()
-    for id in PLAYLISTS:
-        pl = get_playlist(id, bearer)
-        songs = process_playlist(pl, id)
-        publish_playlist(songs)
+    
+    get_playlist(get_playlist_id(raw_url), bearer)
+    #for id in PLAYLISTS:
+    #    pl = get_playlist(id, bearer)
+    #    songs = process_playlist(pl, id)

@@ -1,3 +1,6 @@
+POGERS_FILENAME = 'poger.csv'
+POGERS_COLUMNS = ['name','pl_name','description','url','image_url']
+
 USER_TABLE = {
     'h9wxnd3xvrfdfjv7r9p3ihz68':    'kaavya', 
     '315qfzr3gmd5m4mkjoprzwsny7cq': 'musa', 
