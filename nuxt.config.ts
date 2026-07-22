@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/hints',
     '@nuxt/icon',
     '@nuxt/image',
+    '@nuxt/content',
     '@ant-design-vue/nuxt'
   ]
 })

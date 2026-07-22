@@ -28,12 +28,11 @@ def get_bearer():
 
     return auth
     
-def get_playlist(playlist, bearer):
-    
+def get_playlist(playlist, bearer, index):
     # STEP 0 - If the playlist ID already exists, don't even do anything
     pogers = pd.read_csv(POGERS_FILENAME)
-    if (playlist in pogers['id'].values):
-        repeat = pogers.loc[pogers['id']==playlist].at[0,'name']
+    if (playlist in pogers['plid'].values):
+        repeat = pogers.loc[pogers['plid']==playlist].at[0,'name']
         print(f"{repeat} already has been processed!")
         return
     
@@ -61,7 +60,8 @@ def get_playlist(playlist, bearer):
     # STEP 3 - Add to poger.csv
     print(f"Adding {response['name']} to {POGERS_FILENAME}")
     new_row = pd.DataFrame({
-        'id': playlist,                             
+        'index': index,
+        'plid': playlist,                             
         'name': response['name'],                     
         'pl_name': pl_name,                             
         'description': response['description'],              
@@ -75,7 +75,7 @@ def get_playlist(playlist, bearer):
     print(f"Successfully added {response['name']} to {POGERS_FILENAME}")
         
     # STEP 4 - Setup for CSV of all songs in poger
-    print(f"Generating {pl_name}.csv...")
+    print(f"Generating {index}-{pl_name}.csv...")
     song = []
     song_url = []
     artist = []
@@ -127,11 +127,11 @@ def get_playlist(playlist, bearer):
             'stuwant_url': stuwant_url,
             'duration': duration,
             'timestamp': timestamp
-        }).to_csv(f"data/{pl_name}.csv", index=False)
+        }).to_csv(f"content/playlists/{index}-{pl_name}.csv", index=False)
     except:
-        print(f"Error while generating {pl_name}.csv")
-    print(f"Successfully created {pl_name}.csv")
-
+        print(f"Error while generating {index}-{pl_name}.csv")
+    print(f"Successfully created {index}-{pl_name}.csv")
+    
 # STEPS TO RUNNING THIS SCRIPT
 # 1. Run venv\Scripts\Activate.ps1 in Powershell
 # 2. Run pip install -r requirements.txt
@@ -144,7 +144,9 @@ if __name__ == "__main__":
     print('\n')
     
     bearer = get_bearer()
+    index = 2
     
     for url in PLAYLISTS:
-        get_playlist(get_playlist_id(url), bearer)
+        get_playlist(get_playlist_id(url), bearer, index)
+        index += 1 
 

@@ -1,4 +1,4 @@
-POGERS_FILENAME = 'poger.csv'
+POGERS_FILENAME = 'content/poger.csv'
 
 USER_TABLE = {
     'h9wxnd3xvrfdfjv7r9p3ihz68':    'kaavya', 
