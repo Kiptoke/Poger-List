@@ -65,8 +65,8 @@ def get_playlist(playlist, bearer, index):
         'name': response['name'],                     
         'pl_name': pl_name,                             
         'description': response['description'],              
-        'url': response['external_urls']['spotify'],  
-        'image_url': response['images'][0]['url']           
+        'url': response['external_urls']['spotify'],
+        'file_name': f"{index}-{pl_name}.csv"         
     }, index=[0])
     try:
         pd.concat([pogers, new_row]).to_csv(POGERS_FILENAME, index=False)
@@ -78,6 +78,7 @@ def get_playlist(playlist, bearer, index):
     print(f"Generating {index}-{pl_name}.csv...")
     song = []
     song_url = []
+    song_id = []
     artist = []
     artist_url = []
     album = []
@@ -86,11 +87,13 @@ def get_playlist(playlist, bearer, index):
     stuwant_url = []
     duration = []
     timestamp = []
+    file_name = []
     
     try:
         for s in response['items']['items']:
             song.append(s['track']['name'])
             song_url.append(s['track']['external_urls']['spotify'])
+            song_id.append(s['track']['id'])
             artist.append(s['track']['artists'][0]['name'])
             artist_url.append(s['track']['artists'][0]['external_urls']['spotify'])
             album.append(s['track']['album']['name'])
@@ -99,26 +102,16 @@ def get_playlist(playlist, bearer, index):
             stuwant_url.append(s['added_by']['external_urls']['spotify'])
             duration.append(s['track']['duration_ms'])
             timestamp.append(s['added_at'])
+            file_name.append(f'{index}-{pl_name}.csv')
     except:
         print(f"Error while reading songs from {response['name']}")
-        print({
-            'song': song,
-            'song_url': song_url,
-            'artist': artist,
-            'artist_url': artist_url,
-            'album': album,
-            'album_url': album_url,
-            'stuwant': stuwant,
-            'stuwant_url': stuwant_url,
-            'duration': duration,
-            'timestamp': timestamp
-        })
         
     # STEP 5 - Add to {poger_name}.csv
     try:
         pd.DataFrame({
             'song': song,
             'song_url': song_url,
+            'song_id': song_id,
             'artist': artist,
             'artist_url': artist_url,
             'album': album,
@@ -126,7 +119,8 @@ def get_playlist(playlist, bearer, index):
             'stuwant': stuwant,
             'stuwant_url': stuwant_url,
             'duration': duration,
-            'timestamp': timestamp
+            'timestamp': timestamp,
+            'file_name': file_name
         }).to_csv(f"content/playlists/{index}-{pl_name}.csv", index=False)
     except:
         print(f"Error while generating {index}-{pl_name}.csv")
