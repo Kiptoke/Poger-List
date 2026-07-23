@@ -26,3 +26,5 @@ logs
 # Python files
 venv/
 __pycache__/
+# Local Netlify folder
+.netlify

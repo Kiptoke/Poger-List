@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/content',
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@netlify/nuxt'
   ]
 })

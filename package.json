@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@netlify/nuxt": "^0.3.9",
     "@nuxt/a11y": "^1.0.0-alpha.1",
     "@nuxt/content": "^3.15.1",
     "@nuxt/eslint": "^1.16.0",
