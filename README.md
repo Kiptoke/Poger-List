@@ -1,30 +1,75 @@
-# Poger List
+# Nuxt Minimal Starter
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d1ce4ae6-2a8f-4789-aad9-cee4c8dff49c/deploy-status)](https://app.netlify.com/sites/poger-archive/deploys)
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-A list of every song ever posted as a part of Poger.
+## Setup
 
-## How to Build Locally
+Make sure to install dependencies:
 
 ```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
 npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
-Then, check [localhost:3000](http://localhost:3000/).
 
-## How to Update the Poger List
+## Production
 
-First, update `constants.py` with the ID of the most recent Poger. The ID of a Spotify playlist can be found by right clicking on the playlist and going to `Share > Copy link to playlist`. This URL takes the form:
-
-`https://open.spotify.com/playlist/<playlist_id>?<other_information?>`
-
-You can delete everything except the `playlist_id`. Please also add a comment to the side with the name of the Poger.
-
-After that, run this command
+Build the application for production:
 
 ```bash
-python3 ./python/update_poge.py
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
 
-You should then see output that looks like this: `rhythmy is poger (31 songs) processed`. If you're seeing an error, most likely you don't have the **environment variables** needed to run `update_poge`. Message Andrew if you need this file.
+Locally preview production build:
 
-After running that, reload the Poger list. It should contain all the new songs. Finish the process by committing the new constants file to Git.
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
