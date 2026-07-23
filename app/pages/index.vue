@@ -4,7 +4,6 @@
 
 <template>
   <div v-if="poges">
-    <h1>All of Poger</h1>
     <div v-for="pog in poges" :key="pog.id">
       <PogerTable :name="pog.name" :desc="pog.description" :file="pog.file_name" :id="pog.plid"></PogerTable>
     </div>

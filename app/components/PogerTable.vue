@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  // Fetch Data
   const props = defineProps(['name', 'desc', 'file', 'id'])
   const playlistPath = computed(() => {
     return `playlists/data/${props.file}`
@@ -9,50 +10,22 @@
     { watch: [playlistPath] } // Re-run if the file changes
   )
 
-  const columns = [
-    {
-      title: 'Song Title',
-      dataIndex: 'title',
-      key: 'title',
-    },
-    {
-      title: 'Age',
-      dataIndex: 'age',
-      key: 'age',
-    },
-    {
-      title: 'Address',
-      dataIndex: 'address',
-      key: 'address',
-    },
-  ]
-
-  const dataSource = [
-    {
-      key: '1',
-      name: 'Mike',
-      age: 32,
-      address: '10 Downing Street',
-    },
-    {
-      key: '2',
-      name: 'John',
-      age: 42,
-      address: '10 Downing Street',
-    },
-  ]
+  const source = computed(() => {
+    return playlist.value?.body.map((pls) => ({
+      title: pls.song,
+      artist: pls.artist,
+      album: pls.album,
+      stuwant: pls.stuwant,
+      duration: pls.duration
+    })) || []
+  })
+  
 </script>
 
 <template>
-  <div v-if="playlist">
-    <h1>{{ props.name }}</h1>
-    <h3>{{ props.desc }}</h3>
-    <ul>
-      <li v-for="(song, index) in playlist.body" :key="index">
-        <p>{{ song.song }}</p>
-      </li>
-    </ul>
-  </div>
+  <UPageCard v-if="playlist" :title="props.name" :description="props.desc">
+    <UTable :data="source"/>
+  </UPageCard>
   
   <div v-else-if="status === 'pending'">
     Loading {{ props.name }}...
