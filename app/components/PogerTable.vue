@@ -45,10 +45,8 @@
 
 <template>
   <div v-if="playlist">
-    <a-typography>
-      <a-typography-title :level="2">{{ props.name }}</a-typography-title>
-      <a-typography-paragraph type="secondary">{{ props.desc }}</a-typography-paragraph>
-    </a-typography>
+    <h1>{{ props.name }}</h1>
+    <h3>{{ props.desc }}</h3>
     <ul>
       <li v-for="(song, index) in playlist.body" :key="index">
         <p>{{ song.song }}</p>

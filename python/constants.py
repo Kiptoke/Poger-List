@@ -73,4 +73,5 @@ PLAYLISTS = [
     "https://open.spotify.com/playlist/0W3Ug2Ml0RHLeepSCbPUEI?si=ec16e0f3905347f9", # two men and a poge
     "https://open.spotify.com/playlist/7hhFw0ctm0PBfdlfLwG2mZ?si=752b7173467443c5", # bbboger
     "https://open.spotify.com/playlist/4IQkoKxBM4gJdSgS1q9ODj?si=dc309a33f5514ff3", # estroger
+    "https://open.spotify.com/playlist/5GAw688DNQ028oaKzmkR5A?si=8e18bd52e81d402c", # italian ass poger
 ]

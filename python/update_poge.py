@@ -32,7 +32,7 @@ def get_playlist(playlist, bearer, index):
     # STEP 0 - If the playlist ID already exists, don't even do anything
     pogers = pd.read_csv(POGERS_FILENAME)
     if (playlist in pogers['plid'].values):
-        repeat = pogers.loc[pogers['plid']==playlist].at[0,'name']
+        repeat = pogers.loc[pogers['plid']==playlist].iloc[0]['name']
         print(f"{repeat} already has been processed!")
         return
     
@@ -121,7 +121,7 @@ def get_playlist(playlist, bearer, index):
             'duration': duration,
             'timestamp': timestamp,
             'file_name': file_name
-        }).to_csv(f"content/playlists/{index}-{pl_name}.csv", index=False)
+        }).to_csv(f"content/data/{index}-{pl_name}.csv", index=False)
     except:
         print(f"Error while generating {index}-{pl_name}.csv")
     print(f"Successfully created {index}-{pl_name}.csv")
