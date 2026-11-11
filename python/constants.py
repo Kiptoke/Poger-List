@@ -1,18 +1,21 @@
 POGERS_FILENAME = 'content/poger.csv'
 
 USER_TABLE = {
-    'h9wxnd3xvrfdfjv7r9p3ihz68':    'kaavya', 
-    '315qfzr3gmd5m4mkjoprzwsny7cq': 'musa', 
-    '31fhaf5kxu7r4p3fr5r2klb5d23a': 'andrew', 
-    '31d6s5qq4uxpm6ucmue2p3ykb37q': 'natasha', 
-    '31giifsv5jaavljfciuappzifs3u': 'naveen', 
-    'blackupblackup5':              'aman', 
-    'kush_p':                       'kushal', 
-    'je1mzixeidgq3qxp5v10r4iih':    'farah', 
-    'rennylop':                     'renny',
-    'freezercune':                  'billy',
-    'lwbl3eraki1c231y7yp06f7mn':    'val',
-    'vyfxzshzsqdekexbl6h6ztqoh':    'dilan'
+    'h9wxnd3xvrfdfjv7r9p3ihz68':    'ka',   # kaavya
+    '315qfzr3gmd5m4mkjoprzwsny7cq': 'mu',   # musa
+    '31fhaf5kxu7r4p3fr5r2klb5d23a': 'an',   # andrew
+    '31d6s5qq4uxpm6ucmue2p3ykb37q': 'nt',   # natasha
+    '31giifsv5jaavljfciuappzifs3u': 'nv',   # naveen
+    'blackupblackup5':              'am',   # aman
+    'kush_p':                       'ku',   # kushal
+    'je1mzixeidgq3qxp5v10r4iih':    'fa',   # farah 
+    'rennylop':                     're',   # renny
+    'freezercune':                  'bi',   # billy
+    'lwbl3eraki1c231y7yp06f7mn':    'va',   # val
+    'vyfxzshzsqdekexbl6h6ztqoh':    'di',   # dilan
+    'awe9000':                      'to',   # tolu
+    'yourssincerelynadia':          'nd',   # nadia
+    'eggshelldragon':               'ni',   # nicholas
 }
 
 PLAYLISTS = [

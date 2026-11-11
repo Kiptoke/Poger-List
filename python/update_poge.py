@@ -98,7 +98,7 @@ def get_playlist(playlist, bearer, index):
             artist_url.append(s['track']['artists'][0]['external_urls']['spotify'])
             album.append(s['track']['album']['name'])
             album_url.append(s['track']['album']['external_urls']['spotify'])
-            stuwant.append(s['added_by']['id'])
+            stuwant.append(USER_TABLE[s['added_by']['id']])
             stuwant_url.append(s['added_by']['external_urls']['spotify'])
             duration.append(s['track']['duration_ms'])
             timestamp.append(s['added_at'])
@@ -123,8 +123,9 @@ def get_playlist(playlist, bearer, index):
             'file_name': file_name
         }).to_csv(f"content/data/{index}-{pl_name}.csv", index=False)
     except:
-        print(f"Error while generating {index}-{pl_name}.csv")
-    print(f"Successfully created {index}-{pl_name}.csv")
+        print(f"Error while generating W{index}-{pl_name}.csv")
+    else:
+        print(f"Successfully created {index}-{pl_name}.csv")
     
 # STEPS TO RUNNING THIS SCRIPT
 # 1. Run venv\Scripts\Activate.ps1 in Powershell
